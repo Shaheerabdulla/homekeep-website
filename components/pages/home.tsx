@@ -13,7 +13,8 @@ import {
   Clock, 
   ShieldCheck, 
   CheckCircle2, 
-  ChevronRight 
+  ChevronRight,
+  Waves
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -203,7 +204,16 @@ export default function Home() {
                 title: "Premium Plumbing",
                 desc: "Emergency leak repairs, fixture installations, slab leak detection, and water heater maintenance for high-end villas.",
                 href: "/services/plumbing",
-                span: "lg:col-span-2",
+                span: "",
+              },
+              {
+                img: "/images/pool-testing.jpg",
+                alt: "Swimming pool water testing and maintenance in Qatar villa",
+                icon: <Waves className="h-5 w-5" />,
+                title: "Swimming Pool Maintenance",
+                desc: "Regular cleaning, water testing, filtration servicing, and equipment checks to keep your villa's pool crystal clear.",
+                href: "/services/swimming-pool-maintenance",
+                span: "",
               },
             ].map((svc, i) => (
               <motion.div key={i} variants={fadeIn} className={`group rounded-2xl border border-border bg-card overflow-hidden shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300 flex flex-col ${svc.span}`}>
@@ -346,6 +356,31 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* Technicians at Work Section */}
+      <section className="py-20 bg-secondary/30">
+        <div className="container mx-auto px-4 md:px-6">
+          <motion.div
+            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}
+            className="text-center max-w-2xl mx-auto mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">Our Technicians at Work</h2>
+            <p className="text-lg text-muted-foreground">Homekeep teams serving villas across Qatar — meticulous, protective, and professional in every job.</p>
+          </motion.div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { src: "/images/tech-fcu-villa.jpg", alt: "Homekeep technicians servicing villa HVAC — Qatar" },
+              { src: "/images/tech-fcu-kitchen.jpg", alt: "FCU servicing in villa kitchen — Homekeep Qatar" },
+              { src: "/images/tech-fcu-office-1.jpg", alt: "Ceiling unit service — Homekeep technician" },
+              { src: "/images/tech-fcu-office-2.jpg", alt: "Team HVAC servicing — Homekeep Qatar" },
+            ].map((img, i) => (
+              <motion.div key={i} initial={{ opacity: 0, scale: 0.97 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: i * 0.1 }} className="relative aspect-square rounded-2xl overflow-hidden">
+                <img src={img.src} alt={img.alt} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
       {/* How it Works Section */}
       <section className="py-24 bg-secondary/30">
         <div className="container mx-auto px-4 md:px-6">
