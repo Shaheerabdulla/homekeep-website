@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Homekeep Qatar"
+version = "1.0.0"
+id = "artifacts/homekeep"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18519
+
+[services.development]
+run = "pnpm --filter @workspace/homekeep run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/homekeep", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/homekeep/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18519"
+BASE_PATH = "/"
