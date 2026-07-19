@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import AcServiceContent from "@/components/pages/services/ac-service";
 
 export const metadata: Metadata = {
-  title: "AC Service Qatar | AC Repair Doha | Split AC & Ducted Maintenance | Homekeep",
+  title: "AC Service Qatar | AC Repair Doha | Split AC & Ducted Maintenance",
   description:
     "AC service in Qatar and Doha for villas and apartments. Split AC cleaning, ducted system maintenance, refrigerant top-up and 24/7 emergency AC repair in Pearl Qatar, Lusail, West Bay & Simaisma. From QAR 150. Call +974 50306582.",
   alternates: { canonical: "https://homekeep.qa/services/ac-service" },

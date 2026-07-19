@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ChillerMaintenanceContent from "@/components/pages/services/chiller-maintenance";
 
 export const metadata: Metadata = {
-  title: "Chiller Maintenance Qatar | Residential Chiller Service Doha & Pearl Qatar | Homekeep",
+  title: "Chiller Maintenance Qatar | Residential Chiller Service Doha & Pearl Qatar",
   description:
     "Residential chiller maintenance in Qatar. Chiller servicing, condenser cleaning, fault diagnosis and emergency chiller repair for villas in Pearl Qatar, Lusail, Simaisma and Doha. Preventative AMC contracts available. Call +974 50306582.",
   alternates: { canonical: "https://homekeep.qa/services/chiller-maintenance" },
