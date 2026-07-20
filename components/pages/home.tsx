@@ -243,8 +243,7 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
-
-      {/* Photo Showcase Section */}
+      {/* Why Qatar Villas Trust Homekeep Section */}
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div
@@ -254,107 +253,54 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">Professional Service, Every Visit</h2>
             <p className="text-lg text-muted-foreground">Trained technicians, proper equipment, and a clean finish — every time.</p>
           </motion.div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0 }}
-              className="relative rounded-2xl overflow-hidden group"
-            >
-              <div className="aspect-[4/3]">
-                <img
-                  src="/images/split-ac-wall.jpg"
-                  alt="Split air conditioner wall unit serviced and maintained in Qatar villa"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4">
-                <span className="text-white font-semibold text-sm">Split AC Service & Repair</span>
-                <p className="text-white/75 text-xs mt-0.5">Wall units, ducted, and multi-split systems</p>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
-              className="relative rounded-2xl overflow-hidden group"
-            >
-              <div className="aspect-[4/3]">
-                <img
-                  src="/images/chiller.jpg"
-                  alt="Industrial water chiller unit maintenance in plant room Qatar"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4">
-                <span className="text-white font-semibold text-sm">Chiller Maintenance</span>
-                <p className="text-white/75 text-xs mt-0.5">Central cooling system experts</p>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}
-              className="relative rounded-2xl overflow-hidden group"
-            >
-              <div className="aspect-[4/3]">
-                <img
-                  src="/images/fcu-cassette.jpg"
-                  alt="4-way ceiling cassette fan coil unit FCU servicing Qatar villa"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4">
-                <span className="text-white font-semibold text-sm">FCU & Duct Servicing</span>
-                <p className="text-white/75 text-xs mt-0.5">Fan coil units, filters, and drain lines</p>
-              </div>
-            </motion.div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }}
-              className="relative rounded-2xl overflow-hidden group"
-            >
-              <div className="aspect-[16/7]">
-                <img
-                  src="/images/ahu.jpeg"
-                  alt="Air handling unit AHU maintenance and servicing in plant room Qatar"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/5 to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4">
-                <span className="text-white font-semibold text-sm">AHU Servicing</span>
-                <p className="text-white/75 text-xs mt-0.5">Coil clean, filter change, performance check</p>
-              </div>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }}
-              className="relative rounded-2xl overflow-hidden group"
-            >
-              <div className="aspect-[16/7]">
-                <img
-                  src="/images/split-ac-install.webp"
-                  alt="Wall-mounted split air conditioner installation in Qatar villa"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
-                />
-              </div>
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/5 to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4">
-                <span className="text-white font-semibold text-sm">Split AC Installation & Repair</span>
-                <p className="text-white/75 text-xs mt-0.5">Gas top-up, leak detection, coil service</p>
-              </div>
-            </motion.div>
-          </div>
+          <motion.div
+            initial="hidden" whileInView="visible" viewport={{ once: true }} variants={staggerContainer}
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            {[
+              {
+                icon: <Clock className="h-5 w-5" />,
+                title: "Same-Day Response",
+                desc: "Book AC service, FCU cleaning, or plumbing repair in Doha, Pearl Qatar, or Lusail and get a technician scheduled the same day, most of the time.",
+              },
+              {
+                icon: <ShieldCheck className="h-5 w-5" />,
+                title: "Licensed & Insured Technicians",
+                desc: "Every Homekeep technician is trained and insured for residential HVAC and plumbing work across Qatar's villa communities.",
+              },
+              {
+                icon: <CheckCircle2 className="h-5 w-5" />,
+                title: "Transparent, Upfront Pricing",
+                desc: "You get a clear quote before any work begins — no hidden call-out charges, no surprise add-ons at the end of the job.",
+              },
+              {
+                icon: <Wrench className="h-5 w-5" />,
+                title: "Genuine Parts, Proper Tools",
+                desc: "From chiller diagnostics to FCU coil cleaning, we use OEM-grade parts and professional-grade equipment on every visit.",
+              },
+              {
+                icon: <MapPin className="h-5 w-5" />,
+                title: "Coverage Across Qatar",
+                desc: "Serving villas in Doha, Pearl Qatar, Lusail, West Bay, and Simaisma — our teams know these communities and their systems well.",
+              },
+              {
+                icon: <Phone className="h-5 w-5" />,
+                title: "Workmanship Guarantee",
+                desc: "If something isn't right after we leave, call us and we'll come back to make it right — at no extra cost.",
+              },
+            ].map((item, i) => (
+              <motion.div key={i} variants={fadeIn} className="rounded-2xl border border-border bg-card p-6 shadow-sm hover:shadow-lg hover:border-primary/30 transition-all duration-300">
+                <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center text-primary mb-4">
+                  {item.icon}
+                </div>
+                <h3 className="text-lg font-bold font-serif mb-2 text-foreground">{item.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{item.desc}</p>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </section>
+
 
 
       {/* Technicians at Work Section */}
