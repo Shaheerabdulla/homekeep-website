@@ -441,57 +441,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-24 bg-accent/50 border-b border-border">
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">Trusted by Homeowners</h2>
-            <p className="text-lg text-muted-foreground">Hear from residents across Qatar who rely on us for their comfort.</p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                quote: "The AC in our main living area broke down in July. Homekeep arrived within two hours and had the compressor fixed. Incredibly professional and clean.",
-                name: "Ahmed M.",
-                location: "The Pearl Qatar"
-              },
-              {
-                quote: "We use them for our quarterly chiller maintenance. The technicians are always polite, properly uniformed, and they explain exactly what they are doing.",
-                name: "Sarah T.",
-                location: "West Bay"
-              },
-              {
-                quote: "Finally, a maintenance company in Doha that respects appointment times. They serviced all 8 FCUs in our villa efficiently without making a mess.",
-                name: "Mohammed K.",
-                location: "Lusail City"
-              }
-            ].map((testimonial, i) => (
-              <motion.div 
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1, duration: 0.5 }}
-                className="bg-card p-8 rounded-2xl border border-border shadow-sm flex flex-col justify-between"
-              >
-                <div className="mb-6">
-                  <div className="flex text-primary mb-4">
-                    {[1,2,3,4,5].map(star => (
-                      <svg key={star} className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279-7.416-3.967-7.417 3.967 1.481-8.279-6.064-5.828 8.332-1.151z"/></svg>
-                    ))}
-                  </div>
-                  <p className="text-muted-foreground italic leading-relaxed">"{testimonial.quote}"</p>
-                </div>
-                <div>
-                  <h4 className="font-bold text-foreground">{testimonial.name}</h4>
-                  <p className="text-sm text-muted-foreground">{testimonial.location}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <ReviewsSection />
 
