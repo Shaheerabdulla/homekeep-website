@@ -39,7 +39,7 @@ export function Nav() {
             alt="Homekeep Qatar — AC Service, FCU Servicing & Chiller Maintenance"
             width={160}
             height={60}
-            className="h-10 w-auto object-contain"
+            className="h-14 w-auto object-contain"
             priority
           />
         </Link>
