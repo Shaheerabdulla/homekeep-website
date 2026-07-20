@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import FcuServicingContent from "@/components/pages/services/fcu-servicing";
 
 export const metadata: Metadata = {
-  title: "FCU Servicing Qatar | Fan Coil Unit Service Doha & Pearl Qatar",
+  title: "FCU Servicing Qatar | Fan Coil Unit Cleaning",
   description:
-    "FCU servicing across Qatar — fan coil unit cleaning, coil chemical wash, drain pan service and filter replacement for villas in Pearl Qatar, Lusail, West Bay and Doha. Eliminate odours, prevent water leaks, restore cooling. From QAR 225. Call +974 50306582.",
+    "FCU cleaning, coil wash & filter replacement for Qatar villas. Eliminate odors, prevent leaks. From QAR 225. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/services/fcu-servicing" },
   keywords: [
     "FCU servicing Qatar",

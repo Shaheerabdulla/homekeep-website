@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import SwimmingPoolMaintenanceContent from "@/components/pages/services/swimming-pool-maintenance";
 
 export const metadata: Metadata = {
-  title: "Swimming Pool Maintenance Qatar | Pool Service Doha & Pearl Qatar",
+  title: "Swimming Pool Maintenance Qatar | Pool Service",
   description:
-    "Professional swimming pool maintenance in Qatar. Water balancing, filter servicing, pump repair and pool cleaning for villas in Pearl Qatar, Lusail, West Bay, Simaisma and Doha. Monthly AMC from QAR 2,500/yr. Call +974 50306582.",
+    "Pool cleaning, water balancing & filter servicing for Qatar villas. AMC from QAR 2,500/yr. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/services/swimming-pool-maintenance" },
   keywords: [
     "swimming pool maintenance Qatar",

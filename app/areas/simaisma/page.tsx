@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import SimaismaContent from "@/components/pages/areas/simaisma";
 
 export const metadata: Metadata = {
-  title: "AC Service Simaisma Qatar | Split AC Repair Simaisma",
+  title: "AC Service Simaisma Qatar | Split AC Repair",
   description:
-    "AC service, split AC repair, anti-corrosion treatment, and plumbing for villas in Simaisma Qatar. Coastal specialists. From QAR 150. Call +974 50306582.",
+    "Split AC repair, anti-corrosion treatment & plumbing for Simaisma villas. Coastal specialists. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/areas/simaisma" },
 };
 

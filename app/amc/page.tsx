@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import AmcContent from "@/components/pages/amc";
 
 export const metadata: Metadata = {
-  title: "AC AMC Qatar | Annual Maintenance Contract Doha",
+  title: "AC AMC Qatar | Annual Maintenance Contract",
   description:
-    "Annual Maintenance Contracts (AMC) for AC, AHU, FCU, chiller and plumbing in Qatar. Residential villa AMC packages from QAR 2,000/year. Priority response, zero call-out fees. Call +974 50306582.",
+    "Annual Maintenance Contracts for AC, AHU, FCU, chiller & plumbing in Qatar. From QAR 2,000/year. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/amc" },
 };
 

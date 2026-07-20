@@ -4,7 +4,7 @@ import PearlQatarContent from "@/components/pages/areas/pearl-qatar";
 export const metadata: Metadata = {
   title: "AC Service Pearl Qatar | FCU & AHU Servicing",
   description:
-    "AC service, FCU servicing, AHU maintenance, chiller and plumbing for villas in Pearl Qatar. Same/next-day response. From QAR 225 per FCU unit. Call +974 50306582.",
+    "AC, FCU, AHU, chiller & plumbing service for Pearl Qatar villas. Same/next-day response. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/areas/pearl-qatar" },
 };
 

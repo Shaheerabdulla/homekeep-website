@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import WestBayContent from "@/components/pages/areas/west-bay";
 
 export const metadata: Metadata = {
-  title: "AC Service West Bay Doha | FCU Servicing West Bay",
+  title: "AC Service West Bay Doha | FCU Servicing",
   description:
-    "AC service, FCU cleaning, AHU maintenance, and plumbing for apartments and villas in West Bay Doha. Flexible scheduling, from QAR 225. Call +974 50306582.",
+    "AC, FCU & AHU maintenance plus plumbing for West Bay apartments and villas. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/areas/west-bay" },
 };
 

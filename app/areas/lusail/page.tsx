@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import LusailContent from "@/components/pages/areas/lusail";
 
 export const metadata: Metadata = {
-  title: "AC Service Lusail | AHU & FCU Servicing Lusail City",
+  title: "AC Service Lusail City | HVAC & Plumbing",
   description:
-    "AC service, AHU servicing, FCU cleaning, and plumbing for villas and apartments in Lusail City Qatar. Same/next-day response. From QAR 150. Call +974 50306582.",
+    "AC, AHU & FCU servicing plus plumbing for Lusail City villas. Same/next-day response. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/areas/lusail" },
 };
 

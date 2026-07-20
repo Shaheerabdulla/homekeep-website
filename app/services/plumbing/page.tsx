@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import PlumbingContent from "@/components/pages/services/plumbing";
 
 export const metadata: Metadata = {
-  title: "Plumber Doha Qatar | Emergency Plumbing Services Pearl Qatar",
+  title: "Plumber Doha Qatar | Emergency Plumbing Services",
   description:
-    "Emergency and residential plumbing services in Doha, Pearl Qatar, Lusail and West Bay. Leak repair, drain unblocking, fixture installation, and water heater service. Call +974 50306582.",
+    "Emergency & residential plumbing in Doha, Pearl Qatar & Lusail. Leak repair, drain unblocking, fixtures. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/services/plumbing" },
 };
 

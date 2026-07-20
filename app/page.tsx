@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import HomeContent from "@/components/pages/home";
 
 export const metadata: Metadata = {
-  title: "AC Service Qatar & Doha | FCU Servicing | Chiller Maintenance | Homekeep",
+  title: "AC Service, FCU & Chiller Maintenance Qatar | Homekeep Qatar",
   description:
-    "Qatar's trusted home maintenance specialists. AC service & repair in Qatar and Doha, FCU servicing, chiller maintenance, AHU repair, and plumbing for villas in Pearl Qatar, Lusail, West Bay & Simaisma. Same/next-day response. Call +974 50306582.",
+    "Qatar's trusted AC, FCU, chiller & plumbing specialists. Same/next-day service for villas in Pearl Qatar, Lusail, West Bay & Simaisma. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/" },
   keywords: [
     "AC service Qatar",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "plumbing Doha",
   ],
   openGraph: {
-    title: "AC Service Qatar & Doha | FCU Servicing | Chiller Maintenance | Homekeep",
+    title: "AC Service, FCU & Chiller Maintenance Qatar | Homekeep Qatar",
     description:
       "Expert AC service, FCU servicing, chiller maintenance and plumbing for villas in Qatar. Pearl Qatar, Lusail, West Bay & Doha. Call +974 50306582.",
     url: "https://homekeep.qa/",

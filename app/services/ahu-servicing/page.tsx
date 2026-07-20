@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import AhuServicingContent from "@/components/pages/services/ahu-servicing";
 
 export const metadata: Metadata = {
-  title: "AHU Servicing Qatar | Air Handling Unit Maintenance Doha",
+  title: "AHU Servicing Qatar | Air Handling Unit Maintenance",
   description:
-    "Professional AHU servicing and Air Handling Unit maintenance for villas in Doha, Pearl Qatar, Lusail and West Bay. Expert technicians, same-day response. Call +974 50306582.",
+    "Professional AHU servicing for villas in Doha, Pearl Qatar & Lusail. Same-day response. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/services/ahu-servicing" },
 };
 

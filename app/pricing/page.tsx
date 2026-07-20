@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import PricingContent from "@/components/pages/pricing";
 
 export const metadata: Metadata = {
-  title: "AC Service Prices Qatar | HVAC & Plumbing Pricing Doha",
+  title: "AC Service Prices Qatar | HVAC & Plumbing",
   description:
-    "Transparent pricing for AC service, AHU servicing, FCU cleaning, chiller maintenance, and plumbing in Doha Qatar. Starting prices from QAR 150. Call +974 50306582 for a quote.",
+    "Transparent pricing for AC, AHU, FCU, chiller & plumbing in Doha Qatar. From QAR 150. Call +974 5000 2548 for a quote.",
   alternates: { canonical: "https://homekeep.qa/pricing" },
 };
 

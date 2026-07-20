@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import DohaContent from "@/components/pages/areas/doha";
 
 export const metadata: Metadata = {
-  title: "AC Service Doha Qatar | AHU FCU & Chiller Maintenance Doha",
+  title: "AC Service Doha Qatar | HVAC & Plumbing",
   description:
-    "AC service, AHU servicing, FCU cleaning, chiller maintenance, and plumbing for villas and apartments across Doha Qatar. Same/next-day response. From QAR 150. Call +974 50306582.",
+    "AC, AHU, FCU, chiller & plumbing service for Doha villas and apartments. Same/next-day response. Call +974 5000 2548.",
   alternates: { canonical: "https://homekeep.qa/areas/doha" },
 };
 
