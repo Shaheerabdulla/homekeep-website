@@ -26,22 +26,6 @@ import { Footer } from "@/components/layout/footer";
 import { SEO } from "@/components/seo";
 import { ReviewsSection } from "@/components/reviews-section";
 
-const aggregateRatingSchema = {
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Homekeep Qatar",
-  "telephone": "+97450306582",
-  "url": "https://homekeep.qa",
-  "address": { "@type": "PostalAddress", "addressLocality": "Doha", "addressCountry": "QA" },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.9",
-    "reviewCount": "63",
-    "bestRating": "5",
-    "worstRating": "1"
-  }
-};
-
 const homepageSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
