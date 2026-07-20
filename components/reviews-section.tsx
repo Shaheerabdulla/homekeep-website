@@ -11,6 +11,7 @@ const reviews: Array<{
   service: string;
 }> = [
   // Real customer reviews will be added here once available.
+  { name: "Phil Hannell", location: "Doha", rating: 5, text: "Assembled and installed a chandelier in a 4m high ceiling. Came quickly, did the job, no fuss, no problems, will use again.", service: "Handyman & Installation" },
   // To add a review, copy this object and fill in the details:
   // { name: "Customer Name", location: "Area", rating: 5, text: "Review text", service: "Service type" },
 ];
@@ -37,17 +38,17 @@ export function ReviewsSection() {
           className="text-center mb-12"
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-amber-200 bg-amber-50 px-4 py-1.5 text-sm font-semibold text-amber-700 mb-4">
-            <Star className="h-4 w-4 fill-amber-400 text-amber-400" /> 4.9 / 5 — Google Reviews
+            <Star className="h-4 w-4 fill-amber-400 text-amber-400" /> 5.0 / 5 — Google Reviews
           </div>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-3">
             Trusted by Qatar Homeowners
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl mx-auto">
-            Over 60 five-star reviews from villa owners across Pearl Qatar, Lusail, West Bay, Simaisma, and Doha.
+            Real feedback from Homekeep customers across Doha and Qatar's villa communities.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+        <div className={`grid ${reviews.length === 1 ? "grid-cols-1 max-w-md mx-auto" : "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"} gap-6 mb-10`}>
           {reviews.map((review, i) => (
             <motion.div
               key={i}
