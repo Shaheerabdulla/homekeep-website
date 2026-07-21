@@ -2,3 +2,5 @@
 .env
 .env.local
 *.tsbuildinfo
+.wrangler/
+.open-next/
