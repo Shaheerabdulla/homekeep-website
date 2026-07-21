@@ -118,7 +118,7 @@ export default function Home() {
           >
             {[
               {
-                img: "/images/split-ac-wall.jpg",
+                img: "/images/split-ac-2.jpg",
                 alt: "Wall-mounted split air conditioner unit installed in Qatar villa room",
                 icon: <ThermometerSnowflake className="h-5 w-5" />,
                 title: "AC Services",
@@ -127,7 +127,7 @@ export default function Home() {
                 span: "",
               },
               {
-                img: "/images/ahu.jpeg",
+                img: "/images/ahu-2.jpg",
                 alt: "Air handling unit AHU inside plant room — Homekeep Qatar HVAC servicing",
                 icon: <Fan className="h-5 w-5" />,
                 title: "AHU Servicing",
@@ -136,7 +136,7 @@ export default function Home() {
                 span: "",
               },
               {
-                img: "/images/fcu-cassette.jpg",
+                img: "/images/fcu-unit.webp",
                 alt: "4-way ceiling cassette fan coil unit FCU installed in villa — FCU servicing Qatar",
                 icon: <Wrench className="h-5 w-5" />,
                 title: "FCU Servicing",
@@ -145,7 +145,7 @@ export default function Home() {
                 span: "",
               },
               {
-                img: "/images/chiller.jpg",
+                img: "/images/chiller-2.webp",
                 alt: "Industrial water chiller unit in plant room — chiller maintenance Qatar",
                 icon: <ThermometerSnowflake className="h-5 w-5" />,
                 title: "Chiller Maintenance",
@@ -163,7 +163,7 @@ export default function Home() {
                 span: "",
               },
               {
-                img: "/images/pool-testing.jpg",
+                img: "/images/pool-hero.jpg",
                 alt: "Swimming pool water testing and maintenance in Qatar villa",
                 icon: <Waves className="h-5 w-5" />,
                 title: "Swimming Pool Maintenance",
