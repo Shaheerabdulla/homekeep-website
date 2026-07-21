@@ -49,7 +49,7 @@ const homepageSchema = [
     mainEntity: [
       {
         "@type": "Question",
-        name: "Do you offer emergency AC repair in Qatar?",
+        name: "Do you offer emergency AC repairs?",
         acceptedAnswer: {
           "@type": "Answer",
           text: "Yes, we prioritize emergency no-cooling situations, especially during summer. Our rapid response team can be dispatched quickly to Pearl Qatar, Lusail, and West Bay.",
@@ -57,18 +57,26 @@ const homepageSchema = [
       },
       {
         "@type": "Question",
-        name: "Which areas do you serve in Qatar?",
+        name: "Are your technicians certified?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "We serve all premium residential communities in Qatar, with focused rapid response in The Pearl Qatar, Lusail City, West Bay, and Simaisma.",
+          text: "Absolutely. All our technicians undergo rigorous training and are certified to handle complex HVAC systems, including central chillers and VRF systems.",
         },
       },
       {
         "@type": "Question",
-        name: "Do you offer annual maintenance contracts?",
+        name: "Do you provide annual maintenance contracts (AMCs)?",
         acceptedAnswer: {
           "@type": "Answer",
           text: "Yes, we offer tailored annual maintenance contracts for villas and apartments to keep your AC and plumbing systems running efficiently year-round.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What areas do you cover?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "We proudly serve all premium residential communities in Qatar, with focused rapid response in The Pearl Qatar, Lusail City, West Bay, and Simaisma.",
         },
       },
     ],

@@ -23,30 +23,8 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useToast } from "@/hooks/use-toast";
 import { Nav } from "@/components/layout/nav";
 import { Footer } from "@/components/layout/footer";
-import { SEO } from "@/components/seo";
 import { ReviewsSection } from "@/components/reviews-section";
 
-const homepageSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Do you offer emergency AC repairs in Doha?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, we prioritize emergency no-cooling situations, especially during summer. Our rapid response team can be dispatched quickly to Pearl Qatar, Lusail, and West Bay." }
-    },
-    {
-      "@type": "Question",
-      "name": "What areas do you serve in Qatar?",
-      "acceptedAnswer": { "@type": "Answer", "text": "We serve all premium residential communities in Qatar, with focused rapid response in The Pearl Qatar, Lusail City, West Bay, and Simaisma." }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you provide annual maintenance contracts (AMCs)?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes, we offer tailored annual maintenance contracts for villas and apartments to keep your AC and plumbing systems running efficiently year-round." }
-    }
-  ]
-};
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -77,12 +55,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background flex flex-col font-sans overflow-x-hidden">
-      <SEO
-        title="AC Service Doha Qatar | AC Repair, AHU, FCU, Chiller & Plumbing | Homekeep"
-        description="Homekeep offers professional AC service, AC repair, AHU servicing, FCU cleaning, chiller maintenance and plumbing in Doha, Pearl Qatar, Lusail, West Bay and Simaisma. Call +974 50306582."
-        canonical="https://homekeep.qa/"
-        schema={homepageSchema}
-      />
       <Nav />
 
       {/* Hero Section */}
