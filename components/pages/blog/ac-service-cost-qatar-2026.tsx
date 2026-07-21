@@ -134,7 +134,7 @@ export default function AcServiceCostQatar2026() {
               <p className="text-muted-foreground text-sm mb-4">Fixed prices. No call-out surprises. We cover Pearl Qatar, Lusail, West Bay, Simaisma, and all Doha areas.</p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button asChild className="rounded-xl"><a href="https://wa.me/97450002548" target="_blank" rel="noreferrer">WhatsApp for a Quote</a></Button>
-                <Button asChild variant="outline" className="rounded-xl"><Link href="/pricing">See Our Prices <ChevronRight className="ml-1 h-4 w-4" /></Link></Button>
+                <Button asChild variant="outline" className="rounded-xl"><Link href="/amc">See AMC Packages <ChevronRight className="ml-1 h-4 w-4" /></Link></Button>
               </div>
             </div>
           </div>

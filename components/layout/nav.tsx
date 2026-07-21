@@ -113,12 +113,6 @@ export function Nav() {
             Blog
           </Link>
           <Link
-            href="/pricing"
-            className={`hover:text-primary transition-colors ${pathname === "/pricing" ? "text-primary font-semibold" : ""}`}
-          >
-            Pricing
-          </Link>
-          <Link
             href="/amc"
             className={`hover:text-primary transition-colors ${pathname === "/amc" ? "text-primary font-semibold" : ""}`}
           >
@@ -193,7 +187,6 @@ export function Nav() {
           ))}
           <div className="border-t border-border my-3" />
           <Link href="/blog" className="block px-2 py-2 text-sm font-medium text-foreground hover:text-primary" onClick={() => setMenuOpen(false)}>Blog</Link>
-          <Link href="/pricing" className="block px-2 py-2 text-sm font-medium text-foreground hover:text-primary" onClick={() => setMenuOpen(false)}>Pricing</Link>
           <Link href="/amc" className="block px-2 py-2 text-sm font-semibold text-primary" onClick={() => setMenuOpen(false)}>AMC Packages</Link>
           <div className="border-t border-border my-3" />
           <a href="/#contact" className="block px-2 py-2 text-sm font-medium text-foreground hover:text-primary" onClick={() => setMenuOpen(false)}>Contact</a>
