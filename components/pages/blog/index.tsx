@@ -22,6 +22,14 @@ const schema = {
 
 export const articles = [
   {
+    slug: "signs-you-need-a-plumber-qatar-villa",
+    title: "Signs You Need a Plumber in Your Qatar Villa",
+    excerpt: "Low water pressure, slab leaks, water heater issues, gurgling drains — the plumbing warning signs Qatar villa owners shouldn't ignore, and when to call a professional.",
+    date: "July 2026",
+    readTime: "5 min read",
+    category: "Plumbing",
+  },
+  {
     slug: "pearl-qatar-villa-maintenance-checklist-2026",
     title: "Pearl Qatar Villa Maintenance Checklist 2026",
     excerpt: "Complete quarterly, biannual, and annual maintenance checklist for Pearl Qatar villas. FCU, chiller, plumbing, and seasonal tasks — with frequencies based on coastal humidity and hard water realities.",
