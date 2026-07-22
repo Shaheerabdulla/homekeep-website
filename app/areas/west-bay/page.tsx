@@ -34,15 +34,39 @@ const schemas = [
         name: "Who does AC service in West Bay Doha?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Homekeep provides AC service, FCU servicing, AHU maintenance, and plumbing in West Bay Doha. We cover all residential towers and villa compounds in the area. Call +974 50306582 or WhatsApp +974 50002548.",
+          text: "Homekeep covers AC, FCU, AHU, and plumbing servicing throughout West Bay. We work in residential towers, hotel apartments, and executive apartments, and can coordinate with building management for access.",
         },
       },
       {
         "@type": "Question",
-        name: "Do you service AC units in West Bay apartments?",
+        name: "How much does AC service cost in West Bay?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes — we service AC and FCU units in West Bay residential apartments and hotel apartments. We can coordinate with building management for tower access. FCU servicing starts from QAR 225 per unit.",
+          text: "FCU servicing in West Bay starts from QAR 225 per unit. Split AC servicing starts from QAR 150 per unit. We confirm the final price before any work begins.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can you access my West Bay tower for servicing?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes — we're experienced with West Bay tower access procedures. We can contact your building management or security desk in advance to arrange technician access. Just let us know your building name when you book.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How often should FCUs be serviced in a West Bay apartment?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "We recommend quarterly FCU servicing in Qatar's climate. West Bay towers are tightly sealed with heavy AC usage, which means coils and drain pans accumulate debris quickly. Quarterly cleaning maintains air quality and prevents drain blockages.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do you do emergency AC repair in West Bay?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes — we offer emergency AC and FCU repair across West Bay. Call or WhatsApp us for a same/next-day appointment. AMC customers receive priority same-day dispatch.",
         },
       },
     ],

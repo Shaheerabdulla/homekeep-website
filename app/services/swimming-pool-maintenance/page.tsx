@@ -47,15 +47,23 @@ const schemas = [
         name: "How often should a villa pool be serviced in Qatar?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "In Qatar's climate, a villa pool should receive a professional service visit at minimum once a month. During peak summer (May–September) bi-weekly visits are recommended as high UV and heat rapidly deplete chlorine.",
+          text: "In Qatar's climate, a villa pool should receive a professional service visit at minimum once a month. During peak summer (May–September) when temperatures exceed 40°C, bi-weekly visits are recommended as high UV and heat rapidly deplete chlorine and accelerate algae growth.",
         },
       },
       {
         "@type": "Question",
-        name: "How much does pool maintenance cost in Qatar?",
+        name: "What does a standard pool service visit include?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "A standard monthly service visit starts from QAR 400. Annual Maintenance Contracts start from QAR 2,500 per year and include monthly visits, chemistry consumables, and priority emergency response.",
+          text: "A standard Homekeep pool service visit includes: water chemistry testing and balancing (pH, chlorine, alkalinity, calcium hardness), pool brushing and vacuuming, skimmer and pump basket cleaning, filter backwash or inspection, and a visual equipment check.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Why does my pool water turn green in Qatar summer?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Green water is algae bloom caused by chlorine depletion — extremely common in Qatar summer when high UV and heat rapidly burn off free chlorine. The fix is a shock treatment followed by algaecide, thorough brushing, and then re-establishing a proper maintenance schedule.",
         },
       },
       {
@@ -64,6 +72,14 @@ const schemas = [
         acceptedAnswer: {
           "@type": "Answer",
           text: "Yes — we service villa pools throughout Pearl Qatar, Lusail, West Bay, Simaisma, and all Doha residential areas. We also offer scheduled monthly AMC contracts for consistent pool care.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How much does pool maintenance cost in Qatar?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "A standard monthly service visit starts from QAR 400. Annual Maintenance Contracts start from QAR 2,500 per year and include monthly visits, chemistry consumables, and priority emergency response. Contact us for a quote based on your pool size and location.",
         },
       },
     ],

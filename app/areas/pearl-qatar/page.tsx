@@ -45,6 +45,30 @@ const schemas = [
           text: "FCU servicing in Pearl Qatar starts from QAR 225 per unit for a full service and clean. Chemical deep clean starts from QAR 320 per unit. We always confirm the final price before starting work.",
         },
       },
+      {
+        "@type": "Question",
+        name: "Do you service all compounds in Pearl Qatar?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes — we service villas and apartments across all Pearl Qatar precincts including Porto Arabia, Medina Centrale, Viva Bahriyah, Qanat Quartier, and all gated compounds. We work within compound management requirements and can coordinate access in advance.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How often should FCU units be serviced in Pearl Qatar?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "We recommend servicing FCU units every 3 months given Qatar's climate and the dusty season. Pearl Qatar's proximity to the sea also means salt air can affect FCU coils faster than inland properties. Quarterly servicing under an AMC is the most cost-effective approach.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can you service my chiller in Pearl Qatar?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes — residential chiller maintenance is a core Homekeep service. We inspect, service, and carry out condenser tube cleaning for chillers in Pearl Qatar villas. Chiller service visits start from QAR 1,200.",
+        },
+      },
     ],
   },
 ];

@@ -34,10 +34,10 @@ const schemas = [
     mainEntity: [
       {
         "@type": "Question",
-        name: "What is an AHU and why does it need servicing in Qatar?",
+        name: "What is an AHU and why does it need servicing?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "An Air Handling Unit (AHU) is the central component of a ducted HVAC system that conditions and circulates air throughout your villa. In Qatar's dusty environment, AHUs require regular servicing — typically every 3–6 months — to maintain air quality, prevent bacterial growth in coils, and ensure efficient cooling.",
+          text: "An Air Handling Unit (AHU) is the heart of your ducted central air conditioning system. It conditions, filters, and circulates air throughout your villa. In Qatar's dusty, humid environment, AHUs accumulate dust, bacteria, and mold on coils and in drain pans — making regular servicing essential for healthy air quality and efficient cooling.",
         },
       },
       {
@@ -45,7 +45,23 @@ const schemas = [
         name: "How often should AHU servicing be done in Qatar?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "We recommend AHU servicing every 3 to 6 months in Qatar due to the high dust and humidity levels. Regular maintenance prevents coil fouling, blocked drain pans, and poor air quality inside the home.",
+          text: "Every 3–6 months is recommended for residential AHUs in Qatar. The country's dust levels and near-continuous AC operation means filters and coils foul faster than elsewhere. Quarterly servicing is ideal for villas in Pearl Qatar and Lusail.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What are signs my AHU needs servicing?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Reduced cooling in certain rooms, musty or stale air smells, visible dust from vents, increased electricity bills, water leaks from the unit, or unusual noises are all signs your AHU needs attention.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Do you service AHUs in Pearl Qatar villas?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes — we regularly service AHUs in The Pearl Qatar, Lusail, West Bay, and Simaisma. Many of the large villas in these areas have multi-zone AHU systems that we are fully equipped to service.",
         },
       },
     ],
