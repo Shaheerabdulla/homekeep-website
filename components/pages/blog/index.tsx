@@ -22,6 +22,14 @@ const schema = {
 
 export const articles = [
   {
+    slug: "water-heater-maintenance-qatar",
+    title: "Water Heater Maintenance in Qatar: What Villa Owners Should Know",
+    excerpt: "Why water heaters fail faster in Qatar's hard water, signs of sediment buildup, recommended service frequency, and when to repair vs. replace.",
+    date: "July 2026",
+    readTime: "5 min read",
+    category: "Plumbing",
+  },
+  {
     slug: "signs-you-need-a-plumber-qatar-villa",
     title: "Signs You Need a Plumber in Your Qatar Villa",
     excerpt: "Low water pressure, slab leaks, water heater issues, gurgling drains — the plumbing warning signs Qatar villa owners shouldn't ignore, and when to call a professional.",
