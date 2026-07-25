@@ -58,16 +58,14 @@ export default function Home() {
       <Nav />
 
       {/* Hero Section */}
-      <section className="relative pt-20 pb-32 lg:pt-32 lg:pb-40 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-50/90 to-white/40 z-10" />
-          <img 
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2070" 
-            alt="Luxury Villa Interior" 
-            className="w-full h-full object-cover"
-          />
+      <section className="relative pt-20 pb-32 lg:pt-32 lg:pb-40 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-secondary/40">
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <div className="absolute -top-24 -right-24 h-[420px] w-[420px] rounded-full bg-primary/10 blur-3xl" />
+          <div className="absolute bottom-0 left-1/3 h-[320px] w-[320px] rounded-full bg-blue-200/30 blur-3xl" />
+          <ThermometerSnowflake className="absolute top-16 right-8 h-40 w-40 md:h-56 md:w-56 text-primary/[0.06] rotate-12" strokeWidth={1} />
+          <Wrench className="absolute bottom-10 right-1/4 h-24 w-24 md:h-32 md:w-32 text-primary/[0.05] -rotate-12" strokeWidth={1} />
         </div>
-        
+
         <div className="container relative z-10 mx-auto px-4 md:px-6">
           <div className="max-w-3xl">
             <motion.div initial="hidden" animate="visible" variants={staggerContainer}>
@@ -75,16 +73,16 @@ export default function Home() {
                 <span className="flex h-2 w-2 rounded-full bg-primary mr-2"></span>
                 Premium Home Maintenance in Qatar
               </motion.div>
-              
+
               <motion.h1 variants={fadeIn} className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-[1.1] tracking-tight mb-6">
                 Keep your home <span className="text-primary">perfectly cool</span> and running seamlessly.
               </motion.h1>
-              
+
               <motion.p variants={fadeIn} className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl leading-relaxed">
                 Expert AC servicing, chiller maintenance, and premium plumbing for villas in Pearl Qatar, Lusail, West Bay, and beyond. Professional, punctual, and precise.
               </motion.p>
-              
-              <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4">
+
+              <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4 mb-10">
                 <Button size="lg" asChild className="rounded-full text-base h-14 px-8 shadow-lg shadow-primary/25">
                   <a href="https://wa.me/97450002548" target="_blank" rel="noreferrer">
                     WhatsApp Us Now <ChevronRight className="ml-2 h-5 w-5" />
@@ -95,6 +93,19 @@ export default function Home() {
                     Call +974 5030 6582
                   </a>
                 </Button>
+              </motion.div>
+
+              <motion.div variants={fadeIn} className="flex flex-wrap gap-x-8 gap-y-4">
+                {[
+                  { icon: <CheckCircle2 className="h-5 w-5 text-primary" />, label: "1,100+ Jobs Completed" },
+                  { icon: <ShieldCheck className="h-5 w-5 text-primary" />, label: "Expert Technicians" },
+                  { icon: <Clock className="h-5 w-5 text-primary" />, label: "24/7 Response" },
+                ].map((stat, i) => (
+                  <div key={i} className="flex items-center gap-2">
+                    {stat.icon}
+                    <span className="text-sm font-semibold text-foreground">{stat.label}</span>
+                  </div>
+                ))}
               </motion.div>
             </motion.div>
           </div>
