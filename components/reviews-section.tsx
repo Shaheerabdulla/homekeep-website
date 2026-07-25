@@ -10,8 +10,9 @@ const reviews: Array<{
   text: string;
   service: string;
 }> = [
-  // Real customer reviews will be added here once available.
   { name: "Phil Hannell", location: "Doha", rating: 5, text: "Assembled and installed a chandelier in a 4m high ceiling. Came quickly, did the job, no fuss, no problems, will use again.", service: "Handyman & Installation" },
+  { name: "Ira Corrales", location: "Doha", rating: 5, text: "It was completely satisfied and perfectly and absolutely great job.", service: "Water Heater & HVAC Installation" },
+  { name: "Glenyder Corrales", location: "Doha", rating: 5, text: "Truly impressed with the exceptional service. Their response time exceeded all my expectations. The technical team demonstrated remarkable professionalism and honesty — rather than offering temporary fixes, they identified the true root cause and gave clear, practical recommendations. Highly recommend to anyone seeking reliable, trustworthy technical service.", service: "HVAC & AC System Repair" },
   // To add a review, copy this object and fill in the details:
   // { name: "Customer Name", location: "Area", rating: 5, text: "Review text", service: "Service type" },
 ];

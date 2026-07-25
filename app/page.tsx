@@ -40,7 +40,7 @@ const homepageSchema = [
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "5.0",
-      reviewCount: "1",
+      reviewCount: "3",
     },
   },
   {
