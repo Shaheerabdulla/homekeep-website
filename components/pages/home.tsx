@@ -62,26 +62,20 @@ export default function Home() {
         <div className="absolute inset-0 z-0 pointer-events-none">
           <div className="absolute -top-24 -right-24 h-[420px] w-[420px] rounded-full bg-primary/10 blur-3xl" />
           <div className="absolute bottom-0 left-1/3 h-[320px] w-[320px] rounded-full bg-blue-200/30 blur-3xl" />
-          <ThermometerSnowflake className="absolute top-16 right-8 h-40 w-40 md:h-56 md:w-56 text-primary/[0.06] rotate-12" strokeWidth={1} />
-          <Wrench className="absolute bottom-10 right-1/4 h-24 w-24 md:h-32 md:w-32 text-primary/[0.05] -rotate-12" strokeWidth={1} />
         </div>
-
         <div className="container relative z-10 mx-auto px-4 md:px-6">
-          <div className="max-w-3xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <motion.div initial="hidden" animate="visible" variants={staggerContainer}>
               <motion.div variants={fadeIn} className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium text-primary mb-6">
                 <span className="flex h-2 w-2 rounded-full bg-primary mr-2"></span>
                 Premium Home Maintenance in Qatar
               </motion.div>
-
               <motion.h1 variants={fadeIn} className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-[1.1] tracking-tight mb-6">
                 Keep your home <span className="text-primary">perfectly cool</span> and running seamlessly.
               </motion.h1>
-
               <motion.p variants={fadeIn} className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl leading-relaxed">
                 Expert AC servicing, chiller maintenance, and premium plumbing for villas in Pearl Qatar, Lusail, West Bay, and beyond. Professional, punctual, and precise.
               </motion.p>
-
               <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4 mb-10">
                 <Button size="lg" asChild className="rounded-full text-base h-14 px-8 shadow-lg shadow-primary/25">
                   <a href="https://wa.me/97450002548" target="_blank" rel="noreferrer">
@@ -94,7 +88,6 @@ export default function Home() {
                   </a>
                 </Button>
               </motion.div>
-
               <motion.div variants={fadeIn} className="flex flex-wrap gap-x-8 gap-y-4">
                 {[
                   { icon: <CheckCircle2 className="h-5 w-5 text-primary" />, label: "1,100+ Jobs Completed" },
@@ -108,10 +101,22 @@ export default function Home() {
                 ))}
               </motion.div>
             </motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              className="relative hidden lg:block"
+            >
+              <div className="absolute inset-0 bg-primary/10 rounded-[2.5rem] blur-2xl scale-90" />
+              <img
+                src="/images/ac-system-illustration.webp"
+                alt="Illustration of connected AC and HVAC system components serviced by Homekeep Qatar"
+                className="relative w-full h-auto drop-shadow-2xl"
+              />
+            </motion.div>
           </div>
         </div>
       </section>
-
       {/* Services Section */}
       <section id="services" className="py-24 bg-white">
         <div className="container mx-auto px-4 md:px-6">
