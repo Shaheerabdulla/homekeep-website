@@ -59,12 +59,18 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative pt-20 pb-32 lg:pt-32 lg:pb-40 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-secondary/40">
-        <div className="absolute inset-0 z-0 pointer-events-none">
-          <div className="absolute -top-24 -right-24 h-[420px] w-[420px] rounded-full bg-primary/10 blur-3xl" />
-          <div className="absolute bottom-0 left-1/3 h-[320px] w-[320px] rounded-full bg-blue-200/30 blur-3xl" />
+        <div className="absolute inset-0 z-0">
+          <img
+            src="/images/ac-system-illustration.webp"
+            alt="Illustration of connected AC and HVAC system components serviced by Homekeep Qatar"
+            className="absolute right-0 top-1/2 -translate-y-1/2 w-[85%] md:w-[70%] lg:w-[60%] h-auto object-contain opacity-80 md:opacity-100"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent md:from-white md:via-white/70 md:to-white/10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-blue-50 via-transparent to-transparent" />
         </div>
+
         <div className="container relative z-10 mx-auto px-4 md:px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-2xl">
             <motion.div initial="hidden" animate="visible" variants={staggerContainer}>
               <motion.div variants={fadeIn} className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-3 py-1 text-sm font-medium text-primary mb-6">
                 <span className="flex h-2 w-2 rounded-full bg-primary mr-2"></span>
@@ -73,7 +79,7 @@ export default function Home() {
               <motion.h1 variants={fadeIn} className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-[1.1] tracking-tight mb-6">
                 Keep your home <span className="text-primary">perfectly cool</span> and running seamlessly.
               </motion.h1>
-              <motion.p variants={fadeIn} className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl leading-relaxed">
+              <motion.p variants={fadeIn} className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl leading-relaxed">
                 Expert AC servicing, chiller maintenance, and premium plumbing for villas in Pearl Qatar, Lusail, West Bay, and beyond. Professional, punctual, and precise.
               </motion.p>
               <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4 mb-10">
@@ -100,19 +106,6 @@ export default function Home() {
                   </div>
                 ))}
               </motion.div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.7, delay: 0.2 }}
-              className="relative hidden lg:block"
-            >
-              <div className="absolute inset-0 bg-primary/10 rounded-[2.5rem] blur-2xl scale-90" />
-              <img
-                src="/images/ac-system-illustration.webp"
-                alt="Illustration of connected AC and HVAC system components serviced by Homekeep Qatar"
-                className="relative w-full h-auto drop-shadow-2xl"
-              />
             </motion.div>
           </div>
         </div>
