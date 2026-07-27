@@ -63,10 +63,13 @@ export default function Home() {
           <img
             src="/images/ac-system-illustration.webp"
             alt="Illustration of connected AC and HVAC system components serviced by Homekeep Qatar"
-            className="absolute right-0 top-1/2 -translate-y-1/2 w-[85%] md:w-[70%] lg:w-[60%] h-auto object-contain opacity-80 md:opacity-100"
+            className="absolute right-0 top-1/2 -translate-y-1/2 w-[95%] md:w-[80%] lg:w-[68%] h-auto object-contain opacity-90 md:opacity-100"
+            style={{
+              WebkitMaskImage: "radial-gradient(ellipse 60% 75% at 65% 50%, black 35%, transparent 100%)",
+              maskImage: "radial-gradient(ellipse 60% 75% at 65% 50%, black 35%, transparent 100%)",
+            }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent md:from-white md:via-white/70 md:to-white/10" />
-          <div className="absolute inset-0 bg-gradient-to-t from-blue-50 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/60 to-transparent md:from-white md:via-white/40 md:to-transparent" />
         </div>
 
         <div className="container relative z-10 mx-auto px-4 md:px-6">
