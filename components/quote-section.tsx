@@ -136,7 +136,7 @@ export function QuoteSection({ service = "General Enquiry" }: QuoteSectionProps)
                 Send via WhatsApp
               </Button>
               <Button asChild variant="outline" size="lg" className="rounded-xl h-12 font-semibold text-base">
-                <a href="tel:+97450306582">
+                <a href="tel:+97450002548">
                   <Send className="mr-2 h-5 w-5 rotate-[-45deg]" />
                   Call Instead
                 </a>

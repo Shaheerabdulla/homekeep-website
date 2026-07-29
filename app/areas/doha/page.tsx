@@ -13,7 +13,7 @@ const schemas = [
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Homekeep Qatar — AC & HVAC Services Doha",
-    telephone: "+97450306582",
+    telephone: "+97450002548",
     url: "https://homekeep.qa/areas/doha",
     address: {
       "@type": "PostalAddress",
@@ -49,7 +49,7 @@ const schemas = [
         name: "Do you offer same-day AC repair in Doha?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes — we offer same-day and next-day AC repair across Doha. For emergency AC failures, call +974 50306582 or WhatsApp +974 50002548. AMC customers receive priority dispatch.",
+          text: "Yes — we offer same-day and next-day AC repair across Doha. For emergency AC failures, call +974 50002548 or WhatsApp +974 50002548. AMC customers receive priority dispatch.",
         },
       },
       {

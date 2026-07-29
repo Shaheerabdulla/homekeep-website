@@ -14,7 +14,7 @@ const schema = {
   headline: "AC Not Cooling in Qatar Summer — What to Check First",
   datePublished: "2025-05-15",
   author: { "@type": "Organization", name: "Homekeep Qatar" },
-  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450306582" },
+  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "AC not cooling in Qatar? Before calling a technician, check these common causes: dirty filters, low refrigerant, blocked condenser, thermostat settings, and outdoor unit issues.",
   mainEntityOfPage: "https://homekeep.qa/blog/ac-not-cooling-qatar",

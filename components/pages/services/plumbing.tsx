@@ -21,7 +21,7 @@ const schema = {
   "provider": {
     "@type": "LocalBusiness",
     "name": "Homekeep Qatar",
-    "telephone": "+97450306582",
+    "telephone": "+97450002548",
     "address": { "@type": "PostalAddress", "addressLocality": "Doha", "addressCountry": "QA" }
   },
   "areaServed": ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma"],
@@ -36,7 +36,7 @@ const faqSchema = {
     {
       "@type": "Question",
       "name": "Do you offer emergency plumbing in Doha?",
-      "acceptedAnswer": { "@type": "Answer", "text": "Yes — we provide emergency plumbing services across Doha, Pearl Qatar, Lusail, and West Bay. For burst pipes, severe leaks, or flooding, call +974 50306582 immediately for rapid response." }
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes — we provide emergency plumbing services across Doha, Pearl Qatar, Lusail, and West Bay. For burst pipes, severe leaks, or flooding, call +974 50002548 immediately for rapid response." }
     },
     {
       "@type": "Question",
@@ -51,7 +51,7 @@ export default function PlumbingPage() {
     <div className="min-h-screen bg-background flex flex-col">
       <SEO
         title="Plumber Doha Qatar | Emergency Plumbing Services Pearl Qatar | Homekeep"
-        description="Emergency and residential plumbing services in Doha, Pearl Qatar, Lusail and West Bay. Leak repair, drain unblocking, fixture installation, and water heater service. Call +974 50306582."
+        description="Emergency and residential plumbing services in Doha, Pearl Qatar, Lusail and West Bay. Leak repair, drain unblocking, fixture installation, and water heater service. Call +974 50002548."
         canonical="https://homekeep.qa/services/plumbing"
         schema={[schema, faqSchema]}
       />
@@ -78,7 +78,7 @@ export default function PlumbingPage() {
                   </a>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="rounded-full h-14 px-8 text-base border-white/30 text-white bg-white/10 hover:bg-white/20 font-semibold">
-                  <a href="tel:+97450306582">Call +974 5030 6582</a>
+                  <a href="tel:+97450002548">Call +974 5000 2548</a>
                 </Button>
               </div>
             </motion.div>
@@ -93,7 +93,7 @@ export default function PlumbingPage() {
             </motion.div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { icon: Zap, title: "Emergency Leak Repair", desc: "Rapid response to burst pipes, major leaks, and flooding. Available across Doha, Pearl Qatar, and Lusail. Call +974 50306582 any time." },
+                { icon: Zap, title: "Emergency Leak Repair", desc: "Rapid response to burst pipes, major leaks, and flooding. Available across Doha, Pearl Qatar, and Lusail. Call +974 50002548 any time." },
                 { icon: CheckCircle2, title: "Drain Unblocking", desc: "Clearing blocked kitchen drains, bathroom drains, floor drains, and main sewer lines using professional hydro-jetting equipment." },
                 { icon: Wrench, title: "Fixture Installation", desc: "Supply and fit of premium bathroom and kitchen fixtures — toilets, basins, showers, baths, taps, and mixers for high-end villas." },
                 { icon: Droplets, title: "Water Heater Service", desc: "Servicing, repair, and replacement of electric and gas water heaters. Descaling, anode replacement, and thermostat repair." },
@@ -145,8 +145,8 @@ export default function PlumbingPage() {
                 <div className="mt-8 pt-6 border-t border-border">
                   <p className="text-sm text-muted-foreground mb-4">Plumbing emergency? Call now:</p>
                   <div className="space-y-3">
-                    <a href="tel:+97450306582" className="flex items-center gap-3 text-foreground font-semibold hover:text-primary transition-colors">
-                      <Phone className="h-5 w-5 text-primary" /> +974 5030 6582
+                    <a href="tel:+97450002548" className="flex items-center gap-3 text-foreground font-semibold hover:text-primary transition-colors">
+                      <Phone className="h-5 w-5 text-primary" /> +974 5000 2548
                     </a>
                     <a href="tel:+97450002548" className="flex items-center gap-3 text-foreground font-semibold hover:text-primary transition-colors">
                       <Phone className="h-5 w-5 text-primary" /> +974 5000 2548
@@ -163,7 +163,7 @@ export default function PlumbingPage() {
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-10 text-center">Plumbing FAQ — Qatar</h2>
             <div className="space-y-4">
               {[
-                { q: "Do you offer emergency plumbing in Doha?", a: "Yes — we provide emergency plumbing response across Doha, Pearl Qatar, Lusail, West Bay, and Simaisma. For burst pipes, flooding, or major leaks, call +974 50306582 immediately." },
+                { q: "Do you offer emergency plumbing in Doha?", a: "Yes — we provide emergency plumbing response across Doha, Pearl Qatar, Lusail, West Bay, and Simaisma. For burst pipes, flooding, or major leaks, call +974 50002548 immediately." },
                 { q: "How quickly can a plumber arrive in Pearl Qatar?", a: "For emergencies in Pearl Qatar, Lusail, and West Bay, we aim to dispatch a plumber within a few hours. Response times vary by urgency and time of day." },
                 { q: "Do you fix leaking pipes inside walls?", a: "Yes — we use acoustic leak detection equipment to locate pipes leaking inside walls or under floors without unnecessary cutting. Once located, we repair the leak with minimal disruption to your finishes." },
                 { q: "Can you install bathroom fixtures in my villa?", a: "Absolutely. We install all types of bathroom and kitchen fixtures including designer toilets, freestanding baths, rain showers, and premium tap fittings — familiar with the high-spec installations common in Pearl Qatar and Lusail villas." },
@@ -189,7 +189,7 @@ export default function PlumbingPage() {
                 <a href="https://wa.me/97450002548" target="_blank" rel="noreferrer">WhatsApp +974 5000 2548</a>
               </Button>
               <Button asChild variant="outline" size="lg" className="rounded-full h-14 px-8 text-base border-white/40 text-white bg-white/10 hover:bg-white/20">
-                <a href="tel:+97450306582">Call +974 5030 6582</a>
+                <a href="tel:+97450002548">Call +974 5000 2548</a>
               </Button>
             </div>
           </div>

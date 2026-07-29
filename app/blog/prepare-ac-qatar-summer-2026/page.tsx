@@ -14,7 +14,7 @@ const schema = {
   headline: "How to Prepare Your AC for Qatar Summer 2026",
   datePublished: "2026-02-10",
   author: { "@type": "Organization", name: "Homekeep Qatar" },
-  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450306582" },
+  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Qatar summer 2026 AC preparation checklist. What to service before June, how to avoid breakdown in peak heat, and when to book your pre-summer AC service in Doha and Pearl Qatar.",
   mainEntityOfPage: "https://homekeep.qa/blog/prepare-ac-qatar-summer-2026",

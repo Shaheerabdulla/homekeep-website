@@ -7,7 +7,7 @@ const schema = [
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Homekeep Qatar — AC & HVAC Services Lusail",
-    "telephone": "+97450306582",
+    "telephone": "+97450002548",
     "url": "https://homekeep.qa/areas/lusail",
     "address": { "@type": "PostalAddress", "addressLocality": "Lusail", "addressRegion": "Doha", "addressCountry": "QA" },
     "areaServed": "Lusail",
@@ -17,7 +17,7 @@ const schema = [
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Who does AC service in Lusail?", "acceptedAnswer": { "@type": "Answer", "text": "Homekeep provides AC service, AHU maintenance, FCU servicing, and plumbing across Lusail City. We cover all Lusail districts including Fox Hills, Al Erkyah, Waterfront, Marina, and Energy City. Call +974 50306582." } },
+      { "@type": "Question", "name": "Who does AC service in Lusail?", "acceptedAnswer": { "@type": "Answer", "text": "Homekeep provides AC service, AHU maintenance, FCU servicing, and plumbing across Lusail City. We cover all Lusail districts including Fox Hills, Al Erkyah, Waterfront, Marina, and Energy City. Call +974 50002548." } },
       { "@type": "Question", "name": "How much does AC service cost in Lusail?", "acceptedAnswer": { "@type": "Answer", "text": "AC service in Lusail starts from QAR 150 per split unit. FCU servicing starts from QAR 225 per unit. We provide exact quotes before starting any work." } }
     ]
   }
@@ -29,7 +29,7 @@ const data: AreaPageData = {
   heroBadge: "Serving Lusail City",
   heroDesc: "Fast, reliable AC service, AHU servicing, FCU cleaning, and plumbing for villas and residential towers across all Lusail districts — same/next-day response.",
   metaTitle: "AC Service Lusail | AHU & FCU Servicing Lusail City | Homekeep Qatar",
-  metaDescription: "AC service, AHU servicing, FCU cleaning, and plumbing for villas and apartments in Lusail City Qatar. Same/next-day response. From QAR 150. Call +974 50306582.",
+  metaDescription: "AC service, AHU servicing, FCU cleaning, and plumbing for villas and apartments in Lusail City Qatar. Same/next-day response. From QAR 150. Call +974 50002548.",
   canonical: "https://homekeep.qa/areas/lusail",
   propertyContext: "Lusail is Qatar's newest planned city, featuring a mix of high-rise residential towers, townhouse compounds, and standalone villas across districts including Fox Hills, Al Erkyah, Waterfront, Marina District, and Energy City.",
   hvacNote: "Lusail properties span both split AC and central chiller-fed FCU systems depending on the development. Many newer towers have district cooling, while villa compounds typically have individual chillers or AHU-based systems.",
@@ -52,7 +52,7 @@ const data: AreaPageData = {
     { q: "How much does AC service cost in Lusail?", a: "AC servicing in Lusail starts from QAR 150 per split unit for a full clean and check. FCU units start from QAR 225. AHU servicing starts from QAR 700. We confirm the exact price before starting work." },
     { q: "Do you serve Fox Hills and Al Erkyah in Lusail?", a: "Yes — we cover every district in Lusail including Fox Hills, Al Erkyah, Lusail Waterfront, Marina District, and Energy City. We also serve the villa compounds and residential towers throughout the city." },
     { q: "How often should I service my AC in Lusail?", a: "We recommend quarterly servicing in Qatar's climate. Lusail's ongoing construction means higher dust levels in some areas, which can block filters and coils faster. Quarterly servicing prevents performance loss and extends system life." },
-    { q: "Can you do emergency AC repair in Lusail?", a: "Yes — we offer emergency AC repair across Lusail. Call +974 50306582 or WhatsApp +974 50002548 for a same-day response. AMC customers receive priority dispatch." },
+    { q: "Can you do emergency AC repair in Lusail?", a: "Yes — we offer emergency AC repair across Lusail. Call +974 50002548 or WhatsApp +974 50002548 for a same-day response. AMC customers receive priority dispatch." },
   ],
   schema,
 };

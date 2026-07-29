@@ -7,7 +7,7 @@ const schema = [
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Homekeep Qatar — AC & HVAC Services West Bay",
-    "telephone": "+97450306582",
+    "telephone": "+97450002548",
     "url": "https://homekeep.qa/areas/west-bay",
     "address": { "@type": "PostalAddress", "addressLocality": "West Bay", "addressRegion": "Doha", "addressCountry": "QA" },
     "areaServed": "West Bay",
@@ -17,7 +17,7 @@ const schema = [
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Who does AC service in West Bay Doha?", "acceptedAnswer": { "@type": "Answer", "text": "Homekeep provides AC service, FCU servicing, AHU maintenance, and plumbing in West Bay Doha. We cover all residential towers and villa compounds in the area. Call +974 50306582 or WhatsApp +974 50002548." } },
+      { "@type": "Question", "name": "Who does AC service in West Bay Doha?", "acceptedAnswer": { "@type": "Answer", "text": "Homekeep provides AC service, FCU servicing, AHU maintenance, and plumbing in West Bay Doha. We cover all residential towers and villa compounds in the area. Call +974 50002548 or WhatsApp +974 50002548." } },
       { "@type": "Question", "name": "Do you service AC units in West Bay apartments?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — we service AC and FCU units in West Bay residential apartments and hotel apartments. We can coordinate with building management for tower access. FCU servicing starts from QAR 225 per unit." } }
     ]
   }
@@ -29,7 +29,7 @@ const data: AreaPageData = {
   heroBadge: "Serving West Bay, Doha",
   heroDesc: "Professional AC service, FCU cleaning, AHU maintenance, and plumbing for residential towers and apartments in West Bay — flexible scheduling, same/next-day availability.",
   metaTitle: "AC Service West Bay Doha | FCU Servicing West Bay | Homekeep Qatar",
-  metaDescription: "AC service, FCU cleaning, AHU maintenance, and plumbing for apartments and villas in West Bay Doha. Flexible scheduling, from QAR 225. Call +974 50306582.",
+  metaDescription: "AC service, FCU cleaning, AHU maintenance, and plumbing for apartments and villas in West Bay Doha. Flexible scheduling, from QAR 225. Call +974 50002548.",
   canonical: "https://homekeep.qa/areas/west-bay",
   propertyContext: "West Bay is Doha's primary business and residential high-rise district, home to residential towers, hotel apartments, and executive apartments housing a large expat community. Properties are mostly apartments in managed towers.",
   hvacNote: "West Bay towers predominantly use central district cooling or building-level chiller systems with FCU units throughout. Building management companies often require advance notice — we coordinate this on your behalf.",

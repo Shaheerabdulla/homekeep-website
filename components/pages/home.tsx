@@ -92,8 +92,8 @@ export default function Home() {
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild className="rounded-full text-base h-14 px-8 bg-white/80 backdrop-blur border-border hover:bg-white">
-                  <a href="tel:+97450306582">
-                    Call +974 5030 6582
+                  <a href="tel:+97450002548">
+                    Call +974 5000 2548
                   </a>
                 </Button>
               </motion.div>
@@ -474,7 +474,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-bold text-foreground mb-1">Call Us</h4>
-                    <p className="text-muted-foreground"><a href="tel:+97450306582" className="hover:text-primary transition-colors">+974 5030 6582</a><br/><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a></p>
+                    <p className="text-muted-foreground"><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a><br/><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a></p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">

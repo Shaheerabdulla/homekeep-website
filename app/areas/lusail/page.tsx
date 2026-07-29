@@ -13,7 +13,7 @@ const schemas = [
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Homekeep Qatar — AC & HVAC Services Lusail",
-    telephone: "+97450306582",
+    telephone: "+97450002548",
     url: "https://homekeep.qa/areas/lusail",
     address: {
       "@type": "PostalAddress",
@@ -66,7 +66,7 @@ const schemas = [
         name: "Can you do emergency AC repair in Lusail?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes — we offer emergency AC repair across Lusail. Call +974 50306582 or WhatsApp +974 50002548 for a same-day response. AMC customers receive priority dispatch.",
+          text: "Yes — we offer emergency AC repair across Lusail. Call +974 50002548 or WhatsApp +974 50002548 for a same-day response. AMC customers receive priority dispatch.",
         },
       },
     ],

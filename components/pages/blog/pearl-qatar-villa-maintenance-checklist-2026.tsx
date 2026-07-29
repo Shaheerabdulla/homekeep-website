@@ -14,7 +14,7 @@ const schema = {
   "headline": "Pearl Qatar Villa Maintenance Checklist 2026",
   "datePublished": "2026-05-01",
   "author": { "@type": "Organization", "name": "Homekeep Qatar" },
-  "publisher": { "@type": "Organization", "name": "Homekeep Qatar", "telephone": "+97450306582" },
+  "publisher": { "@type": "Organization", "name": "Homekeep Qatar", "telephone": "+97450002548" },
   "description": "Complete 2026 maintenance checklist for Pearl Qatar villas. AC, FCU, chiller, plumbing, and seasonal tasks to protect your investment and stay comfortable year-round.",
   "mainEntityOfPage": "https://homekeep.qa/blog/pearl-qatar-villa-maintenance-checklist-2026"
 };

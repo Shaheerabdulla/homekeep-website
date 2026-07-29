@@ -26,7 +26,7 @@ const schema = [
     provider: {
       "@type": "LocalBusiness",
       name: "Homekeep Qatar",
-      telephone: "+97450306582",
+      telephone: "+97450002548",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Doha",

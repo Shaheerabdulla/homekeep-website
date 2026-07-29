@@ -7,7 +7,7 @@ const schema = [
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Homekeep Qatar — AC & HVAC Services Pearl Qatar",
-    "telephone": "+97450306582",
+    "telephone": "+97450002548",
     "url": "https://homekeep.qa/areas/pearl-qatar",
     "address": { "@type": "PostalAddress", "addressLocality": "Pearl Qatar", "addressRegion": "Doha", "addressCountry": "QA" },
     "areaServed": "Pearl Qatar",
@@ -17,7 +17,7 @@ const schema = [
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Who does AC service in Pearl Qatar?", "acceptedAnswer": { "@type": "Answer", "text": "Homekeep provides AC service, FCU servicing, AHU maintenance, and plumbing in Pearl Qatar. We operate 7 days a week with same/next-day availability. Call +974 50306582 or WhatsApp +974 50002548." } },
+      { "@type": "Question", "name": "Who does AC service in Pearl Qatar?", "acceptedAnswer": { "@type": "Answer", "text": "Homekeep provides AC service, FCU servicing, AHU maintenance, and plumbing in Pearl Qatar. We operate 7 days a week with same/next-day availability. Call +974 50002548 or WhatsApp +974 50002548." } },
       { "@type": "Question", "name": "How much does AC service cost in Pearl Qatar?", "acceptedAnswer": { "@type": "Answer", "text": "AC service in Pearl Qatar starts from QAR 150 per unit for a standard split AC clean. FCU servicing starts from QAR 225 per unit. Contact Homekeep for an exact quote based on your number of units." } },
       { "@type": "Question", "name": "Do you service FCU systems in Pearl Qatar villas?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — FCU (fan coil unit) servicing is one of our most common jobs in Pearl Qatar, where most villas use chiller-fed FCU systems. We service, deep clean, and repair FCU units across all Pearl Qatar compounds." } }
     ]
@@ -30,7 +30,7 @@ const data: AreaPageData = {
   heroBadge: "Serving Pearl Qatar",
   heroDesc: "Expert AC service, FCU servicing, AHU maintenance, chiller care, and plumbing for villas and compounds across Pearl Qatar — 7 days a week, same/next-day response.",
   metaTitle: "AC Service Pearl Qatar | FCU & AHU Servicing | Homekeep Qatar",
-  metaDescription: "AC service, FCU servicing, AHU maintenance, chiller and plumbing for villas in Pearl Qatar. Same/next-day response. From QAR 225 per FCU unit. Call +974 50306582.",
+  metaDescription: "AC service, FCU servicing, AHU maintenance, chiller and plumbing for villas in Pearl Qatar. Same/next-day response. From QAR 225 per FCU unit. Call +974 50002548.",
   canonical: "https://homekeep.qa/areas/pearl-qatar",
   propertyContext: "Pearl Qatar is home to luxury villas, compounds, and high-end apartments, many managed by homeowner associations. Properties range from townhouses to large standalone villas with multiple HVAC zones.",
   hvacNote: "Most Pearl Qatar villas use central chiller-fed FCU systems with AHUs, rather than conventional split AC units. These require specialist knowledge of water-side balancing, actuators, and BMS integration.",

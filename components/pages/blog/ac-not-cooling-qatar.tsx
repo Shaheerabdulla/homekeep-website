@@ -14,7 +14,7 @@ const schema = {
   "headline": "AC Not Cooling in Qatar Summer — What to Check First",
   "datePublished": "2025-05-15",
   "author": { "@type": "Organization", "name": "Homekeep Qatar" },
-  "publisher": { "@type": "Organization", "name": "Homekeep Qatar", "telephone": "+97450306582" },
+  "publisher": { "@type": "Organization", "name": "Homekeep Qatar", "telephone": "+97450002548" },
   "description": "AC not cooling in Qatar? Before calling a technician, check these common causes: dirty filters, low refrigerant, blocked condenser, thermostat settings, and outdoor unit issues.",
   "mainEntityOfPage": "https://homekeep.qa/blog/ac-not-cooling-qatar"
 };
@@ -72,7 +72,7 @@ export default function AcNotCoolingQatar() {
               <p className="text-muted-foreground text-sm mb-4">Our technicians diagnose and repair AC units across Qatar — Pearl Qatar, Lusail, West Bay, Simaisma, and all Doha areas. Emergency response available.</p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button asChild className="rounded-xl"><a href="https://wa.me/97450002548" target="_blank" rel="noreferrer">WhatsApp for Emergency Repair</a></Button>
-                <Button asChild variant="outline" className="rounded-xl"><a href="tel:+97450306582">Call +974 5030 6582</a></Button>
+                <Button asChild variant="outline" className="rounded-xl"><a href="tel:+97450002548">Call +974 5000 2548</a></Button>
               </div>
             </div>
           </div>

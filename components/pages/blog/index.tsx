@@ -16,7 +16,7 @@ const schema = {
   "publisher": {
     "@type": "LocalBusiness",
     "name": "Homekeep Qatar",
-    "telephone": "+97450306582"
+    "telephone": "+97450002548"
   }
 };
 

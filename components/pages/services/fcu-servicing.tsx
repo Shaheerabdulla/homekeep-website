@@ -21,7 +21,7 @@ const schema = {
   "provider": {
     "@type": "LocalBusiness",
     "name": "Homekeep Qatar",
-    "telephone": "+97450306582",
+    "telephone": "+97450002548",
     "address": { "@type": "PostalAddress", "addressLocality": "Doha", "addressCountry": "QA" }
   },
   "areaServed": ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma"],
@@ -34,7 +34,7 @@ export default function FcuServicingPage() {
     <div className="min-h-screen bg-background flex flex-col">
       <SEO
         title="FCU Servicing Qatar | Fan Coil Unit Cleaning & Maintenance Doha | Homekeep"
-        description="Expert FCU servicing and Fan Coil Unit maintenance for villas and apartments in Doha, Pearl Qatar, Lusail and West Bay. Eliminate odors, prevent leaks, restore cooling. Call +974 50306582."
+        description="Expert FCU servicing and Fan Coil Unit maintenance for villas and apartments in Doha, Pearl Qatar, Lusail and West Bay. Eliminate odors, prevent leaks, restore cooling. Call +974 50002548."
         canonical="https://homekeep.qa/services/fcu-servicing"
         schema={schema}
       />
@@ -61,7 +61,7 @@ export default function FcuServicingPage() {
                   </a>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="rounded-full h-14 px-8 text-base border-white/30 text-white bg-white/10 hover:bg-white/20 font-semibold">
-                  <a href="tel:+97450306582">Call +974 5030 6582</a>
+                  <a href="tel:+97450002548">Call +974 5000 2548</a>
                 </Button>
               </div>
             </motion.div>
@@ -101,7 +101,7 @@ export default function FcuServicingPage() {
                 { q: "What is an FCU and where are they found in Qatar villas?", a: "Fan Coil Units (FCUs) are room-level cooling devices connected to a central chilled water system. They are extremely common in large villas in Pearl Qatar, Lusail, and West Bay where a chiller plant provides centrally cooled water distributed to individual FCUs throughout the property." },
                 { q: "How often should FCUs be serviced in Qatar?", a: "FCUs in Qatar residences should be serviced every 3–4 months. High dust levels quickly clog filters and coat coils, reducing cooling output and creating the conditions for mold and bacteria growth that cause unpleasant odors." },
                 { q: "Why does my FCU smell bad?", a: "Musty or stale smells from FCUs are caused by mold and bacteria growing on damp coil surfaces and in stagnant drain pans. A professional FCU deep-clean with chemical biocide treatment eliminates the odor at its source." },
-                { q: "My FCU is leaking water — what should I do?", a: "Water leaking from an FCU is usually caused by a blocked drain pan or drain pipe, or a faulty drain tray. This needs urgent attention as it can cause ceiling and wall damage. Call us immediately at +974 50306582 for emergency FCU service." },
+                { q: "My FCU is leaking water — what should I do?", a: "Water leaking from an FCU is usually caused by a blocked drain pan or drain pipe, or a faulty drain tray. This needs urgent attention as it can cause ceiling and wall damage. Call us immediately at +974 50002548 for emergency FCU service." },
                 { q: "Do you service FCUs in Pearl Qatar apartments?", a: "Yes — FCU servicing in Pearl Qatar, Lusail, and West Bay is one of our most common jobs. The large chiller-fed villas and apartment complexes in these areas all use FCU systems that we are fully equipped to service." },
               ].map((faq, i) => (
                 <div key={i} className="border border-border rounded-xl p-6 bg-card hover:border-primary/40 transition-colors">
@@ -124,7 +124,7 @@ export default function FcuServicingPage() {
                 <a href="https://wa.me/97450002548" target="_blank" rel="noreferrer">WhatsApp +974 5000 2548</a>
               </Button>
               <Button asChild variant="outline" size="lg" className="rounded-full h-14 px-8 text-base border-white/40 text-white bg-white/10 hover:bg-white/20">
-                <a href="tel:+97450306582">Call +974 5030 6582</a>
+                <a href="tel:+97450002548">Call +974 5000 2548</a>
               </Button>
             </div>
           </div>

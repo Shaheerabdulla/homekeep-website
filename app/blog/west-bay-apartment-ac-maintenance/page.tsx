@@ -14,7 +14,7 @@ const schema = {
   headline: "West Bay Apartment AC Maintenance Guide",
   datePublished: "2026-07-01",
   author: { "@type": "Organization", name: "Homekeep Qatar" },
-  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450306582" },
+  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "How AC maintenance differs for West Bay towers — FCU systems, building access coordination, and how often to service apartment units.",
   mainEntityOfPage: "https://homekeep.qa/blog/west-bay-apartment-ac-maintenance",

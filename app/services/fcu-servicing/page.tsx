@@ -26,7 +26,7 @@ const schema = [
     provider: {
       "@type": "LocalBusiness",
       name: "Homekeep Qatar",
-      telephone: "+97450306582",
+      telephone: "+97450002548",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Doha",
@@ -71,7 +71,7 @@ const schema = [
         name: "My FCU is leaking water — what should I do?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Water leaking from an FCU is usually caused by a blocked drain pan or drain pipe, or a faulty drain tray. This needs urgent attention as it can cause ceiling and wall damage. Call us immediately at +974 50306582 for emergency FCU service.",
+          text: "Water leaking from an FCU is usually caused by a blocked drain pan or drain pipe, or a faulty drain tray. This needs urgent attention as it can cause ceiling and wall damage. Call us immediately at +974 50002548 for emergency FCU service.",
         },
       },
       {

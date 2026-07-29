@@ -16,7 +16,7 @@ const schemas = [
     provider: {
       "@type": "LocalBusiness",
       name: "Homekeep Qatar",
-      telephone: "+97450306582",
+      telephone: "+97450002548",
       address: {
         "@type": "PostalAddress",
         addressLocality: "Doha",
@@ -37,7 +37,7 @@ const schemas = [
         name: "Do you offer emergency plumbing in Doha?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes — we provide emergency plumbing response across Doha, Pearl Qatar, Lusail, West Bay, and Simaisma. For burst pipes, flooding, or major leaks, call +974 50306582 immediately.",
+          text: "Yes — we provide emergency plumbing response across Doha, Pearl Qatar, Lusail, West Bay, and Simaisma. For burst pipes, flooding, or major leaks, call +974 50002548 immediately.",
         },
       },
       {

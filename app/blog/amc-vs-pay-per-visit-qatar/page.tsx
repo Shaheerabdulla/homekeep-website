@@ -14,7 +14,7 @@ const schema = {
   headline: "AMC vs Pay-Per-Visit: Which Saves More in Qatar?",
   datePublished: "2026-07-01",
   author: { "@type": "Organization", name: "Homekeep Qatar" },
-  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450306582" },
+  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "A real cost comparison between Annual Maintenance Contracts and pay-per-visit AC servicing in Qatar, plus when each option makes more sense.",
   mainEntityOfPage: "https://homekeep.qa/blog/amc-vs-pay-per-visit-qatar",

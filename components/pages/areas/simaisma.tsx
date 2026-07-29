@@ -7,7 +7,7 @@ const schema = [
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Homekeep Qatar — AC & HVAC Services Simaisma",
-    "telephone": "+97450306582",
+    "telephone": "+97450002548",
     "url": "https://homekeep.qa/areas/simaisma",
     "address": { "@type": "PostalAddress", "addressLocality": "Simaisma", "addressRegion": "Doha", "addressCountry": "QA" },
     "areaServed": "Simaisma",
@@ -17,7 +17,7 @@ const schema = [
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
-      { "@type": "Question", "name": "Who does AC service in Simaisma?", "acceptedAnswer": { "@type": "Answer", "text": "Homekeep provides AC service, split AC repair, and plumbing for villas in Simaisma. We cover beachfront and inland properties. Call +974 50306582 or WhatsApp +974 50002548." } },
+      { "@type": "Question", "name": "Who does AC service in Simaisma?", "acceptedAnswer": { "@type": "Answer", "text": "Homekeep provides AC service, split AC repair, and plumbing for villas in Simaisma. We cover beachfront and inland properties. Call +974 50002548 or WhatsApp +974 50002548." } },
       { "@type": "Question", "name": "Why do AC units corrode faster in Simaisma?", "acceptedAnswer": { "@type": "Answer", "text": "Simaisma's coastal location means AC outdoor units are exposed to salt-laden sea air, which accelerates corrosion of condenser coils, fins, and casings. Regular servicing and anti-corrosion coil treatment extends unit life significantly." } }
     ]
   }
@@ -29,7 +29,7 @@ const data: AreaPageData = {
   heroBadge: "Serving Simaisma",
   heroDesc: "Specialist AC servicing, split AC repair, plumbing, and corrosion protection for beachfront and residential villas in Simaisma — same/next-day response, 7 days a week.",
   metaTitle: "AC Service Simaisma Qatar | Split AC Repair Simaisma | Homekeep",
-  metaDescription: "AC service, split AC repair, anti-corrosion treatment, and plumbing for villas in Simaisma Qatar. Coastal specialists. From QAR 150. Call +974 50306582.",
+  metaDescription: "AC service, split AC repair, anti-corrosion treatment, and plumbing for villas in Simaisma Qatar. Coastal specialists. From QAR 150. Call +974 50002548.",
   canonical: "https://homekeep.qa/areas/simaisma",
   propertyContext: "Simaisma is a coastal area northeast of Doha known for beachfront private villas, weekend retreats, and residential compounds. Properties range from older family villas to newer luxury beachfront homes.",
   hvacNote: "Simaisma's coastal salt air environment is uniquely harsh on AC systems. Outdoor condenser coils corrode faster than inland properties, fins clog with salt deposits, and casings rust prematurely. Specialist coastal servicing — including anti-corrosion coil coatings — is essential.",

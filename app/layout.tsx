@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: "%s | Homekeep Qatar",
   },
   description:
-    "Homekeep — expert AC service in Qatar and Doha. FCU servicing, chiller maintenance, AHU repair and plumbing for villas in Pearl Qatar, Lusail, West Bay & Simaisma. Call +974 50306582.",
+    "Homekeep — expert AC service in Qatar and Doha. FCU servicing, chiller maintenance, AHU repair and plumbing for villas in Pearl Qatar, Lusail, West Bay & Simaisma. Call +974 50002548.",
   metadataBase: new URL("https://homekeep.qa"),
   keywords: [
     "AC service Qatar",

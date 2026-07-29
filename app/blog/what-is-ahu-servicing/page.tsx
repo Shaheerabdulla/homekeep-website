@@ -14,7 +14,7 @@ const schema = {
   headline: "What Is AHU Servicing and Does My Villa Need It?",
   datePublished: "2025-04-01",
   author: { "@type": "Organization", name: "Homekeep Qatar" },
-  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450306582" },
+  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "What is an AHU (Air Handling Unit)? Does your Qatar villa have one? What does AHU servicing include? Complete guide for Doha homeowners.",
   mainEntityOfPage: "https://homekeep.qa/blog/what-is-ahu-servicing",

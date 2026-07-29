@@ -41,7 +41,7 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-base mb-4 font-serif">Contact</h4>
             <ul className="space-y-2.5 text-gray-400 text-sm">
-              <li><a href="tel:+97450306582" className="hover:text-primary transition-colors">+974 5030 6582</a></li>
+              <li><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a></li>
               <li><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a></li>
               <li><a href="mailto:info@homekeep.qa" className="hover:text-primary transition-colors">info@homekeep.qa</a></li>
               <li className="pt-2 text-gray-500">Doha, Qatar</li>

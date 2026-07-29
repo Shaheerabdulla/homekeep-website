@@ -21,7 +21,7 @@ const schema = {
   "provider": {
     "@type": "LocalBusiness",
     "name": "Homekeep Qatar",
-    "telephone": "+97450306582",
+    "telephone": "+97450002548",
     "address": { "@type": "PostalAddress", "addressLocality": "Doha", "addressCountry": "QA" }
   },
   "areaServed": ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma"],
@@ -51,7 +51,7 @@ export default function AhuServicingPage() {
     <div className="min-h-screen bg-background flex flex-col">
       <SEO
         title="AHU Servicing Qatar | Air Handling Unit Maintenance Doha | Homekeep"
-        description="Professional AHU servicing and Air Handling Unit maintenance for villas in Doha, Pearl Qatar, Lusail and West Bay. Expert technicians, same-day response. Call +974 50306582."
+        description="Professional AHU servicing and Air Handling Unit maintenance for villas in Doha, Pearl Qatar, Lusail and West Bay. Expert technicians, same-day response. Call +974 50002548."
         canonical="https://homekeep.qa/services/ahu-servicing"
         schema={[schema, faqSchema]}
       />
@@ -81,7 +81,7 @@ export default function AhuServicingPage() {
                   </a>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="rounded-full h-14 px-8 text-base border-white/30 text-white bg-white/10 hover:bg-white/20 font-semibold">
-                  <a href="tel:+97450306582">Call +974 5030 6582</a>
+                  <a href="tel:+97450002548">Call +974 5000 2548</a>
                 </Button>
               </div>
             </motion.div>
@@ -143,7 +143,7 @@ export default function AhuServicingPage() {
                 <a href="https://wa.me/97450002548" target="_blank" rel="noreferrer">WhatsApp +974 5000 2548</a>
               </Button>
               <Button asChild variant="outline" size="lg" className="rounded-full h-14 px-8 text-base border-white/40 text-white bg-white/10 hover:bg-white/20">
-                <a href="tel:+97450306582">Call +974 5030 6582</a>
+                <a href="tel:+97450002548">Call +974 5000 2548</a>
               </Button>
             </div>
           </div>

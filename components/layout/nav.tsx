@@ -134,10 +134,10 @@ export function Nav() {
               24/7 Emergency
             </span>
             <a
-              href="tel:+97450306582"
+              href="tel:+97450002548"
               className="text-sm font-bold text-foreground hover:text-primary transition-colors flex items-center gap-1"
             >
-              <Phone className="h-3.5 w-3.5" /> +974 5030 6582
+              <Phone className="h-3.5 w-3.5" /> +974 5000 2548
             </a>
           </div>
           <Button asChild size="lg" className="rounded-full shadow-md font-semibold">
@@ -191,8 +191,8 @@ export function Nav() {
           <div className="border-t border-border my-3" />
           <a href="/#contact" className="block px-2 py-2 text-sm font-medium text-foreground hover:text-primary" onClick={() => setMenuOpen(false)}>Contact</a>
           <div className="border-t border-border my-3" />
-          <a href="tel:+97450306582" className="block px-2 py-2 text-sm font-bold text-primary">
-            Call +974 5030 6582
+          <a href="tel:+97450002548" className="block px-2 py-2 text-sm font-bold text-primary">
+            Call +974 5000 2548
           </a>
           <a href="https://wa.me/97450002548" target="_blank" rel="noreferrer" className="block px-2 py-2 text-sm font-bold text-[#25D366]">
             WhatsApp +974 5000 2548

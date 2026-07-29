@@ -14,7 +14,7 @@ const schema = {
   headline: "AC Service Cost in Qatar 2026 — What to Expect",
   datePublished: "2026-01-15",
   author: { "@type": "Organization", name: "Homekeep Qatar" },
-  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450306582" },
+  publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "How much does AC servicing cost in Qatar in 2026? Full price breakdown for split AC service, FCU cleaning, AHU service, and chiller maintenance in Doha, Pearl Qatar, and Lusail.",
   mainEntityOfPage: "https://homekeep.qa/blog/ac-service-cost-qatar-2026",

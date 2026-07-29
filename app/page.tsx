@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AC Service, FCU & Chiller Maintenance Qatar | Homekeep Qatar",
     description:
-      "Expert AC service, FCU servicing, chiller maintenance and plumbing for villas in Qatar. Pearl Qatar, Lusail, West Bay & Doha. Call +974 50306582.",
+      "Expert AC service, FCU servicing, chiller maintenance and plumbing for villas in Qatar. Pearl Qatar, Lusail, West Bay & Doha. Call +974 50002548.",
     url: "https://homekeep.qa/",
     images: [{ url: "/opengraph.jpg", width: 1200, height: 630 }],
   },
@@ -30,7 +30,7 @@ const homepageSchema = [
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     name: "Homekeep Qatar",
-    telephone: "+97450306582",
+    telephone: "+97450002548",
     url: "https://homekeep.qa",
     address: {
       "@type": "PostalAddress",
