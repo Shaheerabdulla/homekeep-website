@@ -25,8 +25,8 @@ export const metadata: Metadata = {
     "Homekeep Qatar",
   ],
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
   },
   openGraph: {
     siteName: "Homekeep Qatar",

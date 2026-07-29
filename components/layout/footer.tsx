@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ThermometerSnowflake } from "lucide-react";
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -10,8 +10,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-10">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <ThermometerSnowflake className="h-6 w-6 text-primary" />
-              <span className="text-xl font-serif font-bold tracking-tight">Homekeep</span>
+              <Image
+                src="/homekeep-logo.jpg"
+                alt="Homekeep Qatar"
+                width={160}
+                height={60}
+                className="h-10 w-auto object-contain brightness-0 invert"
+              />
             </div>
             <p className="text-gray-400 max-w-sm mb-6 leading-relaxed">
               Premium residential AC service, chiller maintenance, and plumbing for Qatar's finest villas and residences. Serving Pearl Qatar, Lusail, West Bay, and Simaisma.
