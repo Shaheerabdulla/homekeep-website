@@ -9,13 +9,13 @@ export function Footer() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-10">
           <div className="col-span-1 md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
+            <div className="inline-flex items-center bg-white rounded-lg px-3 py-2 mb-4">
               <Image
                 src="/homekeep-logo.jpg"
                 alt="Homekeep Qatar"
                 width={160}
                 height={60}
-                className="h-10 w-auto object-contain brightness-0 invert"
+                className="h-9 w-auto object-contain"
               />
             </div>
             <p className="text-gray-400 max-w-sm mb-6 leading-relaxed">
