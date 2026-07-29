@@ -474,7 +474,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="font-bold text-foreground mb-1">Call Us</h4>
-                    <p className="text-muted-foreground"><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a><br/><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a></p>
+                    <p className="text-muted-foreground"><a href="tel:+97455108965" className="hover:text-primary transition-colors">+974 5000 2548</a><br/><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a></p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
