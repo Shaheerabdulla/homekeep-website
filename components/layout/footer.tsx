@@ -62,7 +62,7 @@ export function Footer() {
             <h4 className="font-bold text-base mb-4 font-serif">Contact</h4>
             <ul className="space-y-2.5 text-gray-400 text-sm">
               <li><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a></li>
-              <li><a href="tel:+97450002548" className="hover:text-primary transition-colors">+974 5000 2548</a></li>
+              <li><a href="tel:+97440172172" className="hover:text-primary transition-colors">+974 4017 2172</a></li>
               <li><a href="mailto:info@homekeep.qa" className="hover:text-primary transition-colors">info@homekeep.qa</a></li>
               <li className="pt-2 text-gray-500">Doha, Qatar</li>
               <li className="text-gray-500 text-xs mt-3 leading-relaxed">Service Areas: Pearl Qatar, Lusail, West Bay, Simaisma</li>
