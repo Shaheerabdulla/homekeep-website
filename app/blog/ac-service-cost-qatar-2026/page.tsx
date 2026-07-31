@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import AcServiceCostQatar2026 from "@/components/pages/blog/ac-service-cost-qatar-2026";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AC Service Cost in Qatar 2026 — Full Price Guide",
-  description:
-    "How much does AC servicing cost in Qatar in 2026? Prices for split AC, FCU, AHU, and chiller maintenance in Doha, Pearl Qatar, and Lusail. Compare Homekeep's transparent rates.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/ac-service-cost-qatar-2026" },
-};
+  description: "How much does AC servicing cost in Qatar in 2026? Prices for split AC, FCU, AHU, and chiller maintenance in Doha, Pearl Qatar, and Lusail. Compare Homekeep",
+  path: "/blog/ac-service-cost-qatar-2026",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

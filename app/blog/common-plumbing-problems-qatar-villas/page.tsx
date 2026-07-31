@@ -1,14 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import CommonPlumbingProblemsQatarVillas from "@/components/pages/blog/common-plumbing-problems-qatar-villas";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Common Plumbing Problems in Qatar Villas — Prevention Guide",
-  description:
-    "The most common plumbing problems in Qatar villas: slab leaks, hot water failure, low pressure, hard water damage. Prevention tips and when to call a plumber in Doha and Pearl Qatar.",
-  alternates: {
-    canonical: "https://www.homekeep.qa/blog/common-plumbing-problems-qatar-villas",
-  },
-};
+  description: "The most common plumbing problems in Qatar villas: slab leaks, hot water failure, low pressure, hard water damage. Prevention tips and when to call a plumber in Doha and Pearl Qatar.",
+  path: "/blog/common-plumbing-problems-qatar-villas",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

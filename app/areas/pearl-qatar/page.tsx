@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import PearlQatarContent from "@/components/pages/areas/pearl-qatar";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AC Service Pearl Qatar | FCU & AHU Servicing",
-  description:
-    "AC, FCU, AHU, chiller & plumbing service for Pearl Qatar villas. Same/next-day response. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/areas/pearl-qatar" },
-};
+  description: "AC, FCU, AHU, chiller & plumbing service for Pearl Qatar villas. Same/next-day response. Call +974 5000 2548.",
+  path: "/areas/pearl-qatar",
+  type: "website",
+});
 
 const schemas = [
   {
@@ -77,9 +78,40 @@ export default function Page() {
   return (
     <>
       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HVACContractor",
+              "@id": "https://www.homekeep.qa/areas/pearl-qatar#organization",
+              "name": "Homekeep Qatar - Pearl Qatar AC & Maintenance Specialist",
+              "telephone": "+97450002548",
+              "url": "https://www.homekeep.qa/areas/pearl-qatar",
+              "image": "https://www.homekeep.qa/opengraph.jpg",
+              "priceRange": "QAR 150 - QAR 1500",
+              "description": "Premium villa & apartment AC servicing, FCU chemical washing, chiller maintenance, and emergency repair across Porto Arabia, Viva Bahriya, and Qanat Quartier in Pearl Qatar.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "The Pearl Qatar",
+                "addressRegion": "Doha",
+                "addressCountry": "QA"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "25.3712",
+                "longitude": "51.5514"
+              },
+              "areaServed": [
+                "Pearl Qatar",
+                "Porto Arabia",
+                "Viva Bahriya",
+                "Qanat Quartier",
+                "Isola Dana",
+                "Abraj Bay"
+              ]
+            })
+          }}
+        />
       <PearlQatarContent />
     </>
   );

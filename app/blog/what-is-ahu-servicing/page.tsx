@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import WhatIsAhuServicing from "@/components/pages/blog/what-is-ahu-servicing";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "What Is AHU Servicing? Does My Qatar Villa Need It?",
-  description:
-    "What is an AHU (Air Handling Unit), does your Qatar villa have one, and what does AHU servicing include? Complete guide for Doha, Pearl Qatar, and Lusail homeowners.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/what-is-ahu-servicing" },
-};
+  description: "What is an AHU (Air Handling Unit), does your Qatar villa have one, and what does AHU servicing include? Complete guide for Doha, Pearl Qatar, and Lusail homeowners.",
+  path: "/blog/what-is-ahu-servicing",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

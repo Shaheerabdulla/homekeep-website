@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import AmcContent from "@/components/pages/amc";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AC AMC Qatar | Annual Maintenance Contract",
-  description:
-    "Annual Maintenance Contracts for AC, AHU, FCU, chiller & plumbing in Qatar. From QAR 2,000/year. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/amc" },
-};
+  description: "Annual Maintenance Contracts for AC, AHU, FCU, chiller & plumbing in Qatar. From QAR 2,000/year. Call +974 5000 2548.",
+  path: "/amc",
+  type: "website",
+});
 
 const schemas = [
   {

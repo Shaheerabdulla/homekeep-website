@@ -1,14 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import PearlQatarVillaMaintenanceChecklist2026 from "@/components/pages/blog/pearl-qatar-villa-maintenance-checklist-2026";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Pearl Qatar Villa Maintenance Checklist 2026",
-  description:
-    "Complete 2026 maintenance checklist for Pearl Qatar villas. Quarterly FCU service, annual chiller checks, plumbing inspections, and seasonal tasks to protect your property.",
-  alternates: {
-    canonical: "https://www.homekeep.qa/blog/pearl-qatar-villa-maintenance-checklist-2026",
-  },
-};
+  description: "Complete 2026 maintenance checklist for Pearl Qatar villas. Quarterly FCU service, annual chiller checks, plumbing inspections, and seasonal tasks to protect your property.",
+  path: "/blog/pearl-qatar-villa-maintenance-checklist-2026",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

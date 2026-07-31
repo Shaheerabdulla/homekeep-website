@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import ChillerVsSplitAcQatar from "@/components/pages/blog/chiller-vs-split-ac-qatar";
 
-export const metadata: Metadata = {
-  title: "Chiller vs Split AC in Qatar: What's the Difference?",
-  description:
-    "Chiller-fed FCU or split AC? Many Qatar villa owners don't know which system they have. This guide explains the difference, maintenance needs, and costs for Pearl Qatar, Lusail, and Doha homes.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/chiller-vs-split-ac-qatar" },
-};
+export const metadata = generatePageMetadata({
+  title: "Chiller vs Split AC in Qatar: What",
+  description: "Chiller-fed FCU or split AC? Many Qatar villa owners don",
+  path: "/blog/chiller-vs-split-ac-qatar",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

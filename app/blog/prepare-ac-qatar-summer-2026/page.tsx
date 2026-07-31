@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import PrepareAcQatarSummer2026 from "@/components/pages/blog/prepare-ac-qatar-summer-2026";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "How to Prepare Your AC for Qatar Summer 2026 | Homekeep Checklist",
-  description:
-    "Qatar summer 2026 AC preparation checklist. What to service, when to book, and how to avoid a breakdown in peak heat. Expert guide for Pearl Qatar, Lusail, and Doha villas.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/prepare-ac-qatar-summer-2026" },
-};
+  description: "Qatar summer 2026 AC preparation checklist. What to service, when to book, and how to avoid a breakdown in peak heat. Expert guide for Pearl Qatar, Lusail, and Doha villas.",
+  path: "/blog/prepare-ac-qatar-summer-2026",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

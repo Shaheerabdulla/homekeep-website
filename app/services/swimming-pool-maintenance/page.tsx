@@ -1,22 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import SwimmingPoolMaintenanceContent from "@/components/pages/services/swimming-pool-maintenance";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Swimming Pool Maintenance Qatar | Pool Service",
-  description:
-    "Pool cleaning, water balancing & filter servicing for Qatar villas. AMC from QAR 2,500/yr. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/services/swimming-pool-maintenance" },
-  keywords: [
-    "swimming pool maintenance Qatar",
-    "pool maintenance Doha",
-    "pool service Pearl Qatar",
-    "pool cleaning Qatar",
-    "pool water balancing Qatar",
-    "pool pump repair Doha",
-    "villa pool maintenance Qatar",
-    "pool AMC Qatar",
-  ],
-};
+  description: "Pool cleaning, water balancing & filter servicing for Qatar villas. AMC from QAR 2,500/yr. Call +974 5000 2548.",
+  path: "/services/swimming-pool-maintenance",
+  type: "website",
+});
 
 const schemas = [
   {

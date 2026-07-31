@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import WaterHeaterMaintenanceQatar from "@/components/pages/blog/water-heater-maintenance-qatar";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Water Heater Maintenance in Qatar Villas",
-  description:
-    "Why water heaters fail faster in Qatar, signs of sediment buildup, and how often to service your tank. A guide for Qatar villa owners.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/water-heater-maintenance-qatar" },
-};
+  description: "Why water heaters fail faster in Qatar, signs of sediment buildup, and how often to service your tank. A guide for Qatar villa owners.",
+  path: "/blog/water-heater-maintenance-qatar",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

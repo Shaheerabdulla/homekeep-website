@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import WestBayContent from "@/components/pages/areas/west-bay";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AC Service West Bay Doha | FCU Servicing",
-  description:
-    "AC, FCU & AHU maintenance plus plumbing for West Bay apartments and villas. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/areas/west-bay" },
-};
+  description: "AC, FCU & AHU maintenance plus plumbing for West Bay apartments and villas. Call +974 5000 2548.",
+  path: "/areas/west-bay",
+  type: "website",
+});
 
 const schemas = [
   {
@@ -77,9 +78,39 @@ export default function Page() {
   return (
     <>
       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HVACContractor",
+              "@id": "https://www.homekeep.qa/areas/west-bay#organization",
+              "name": "Homekeep Qatar - West Bay AC & HVAC Specialist",
+              "telephone": "+97450002548",
+              "url": "https://www.homekeep.qa/areas/west-bay",
+              "image": "https://www.homekeep.qa/opengraph.jpg",
+              "priceRange": "QAR 150 - QAR 1500",
+              "description": "High-rise apartment and luxury villa AC servicing, FCU duct cleaning, and plumbing services in West Bay, Diplomatic Area, and West Bay Lagoon.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "West Bay",
+                "addressRegion": "Doha",
+                "addressCountry": "QA"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "25.3242",
+                "longitude": "51.5281"
+              },
+              "areaServed": [
+                "West Bay",
+                "West Bay Lagoon",
+                "Diplomatic Area",
+                "Onaiza",
+                "Dafna"
+              ]
+            })
+          }}
+        />
       <WestBayContent />
     </>
   );

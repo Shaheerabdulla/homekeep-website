@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import HowOftenAcServiceQatar from "@/components/pages/blog/how-often-ac-service-qatar";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "How Often Should You Service Your AC in Qatar?",
-  description:
-    "How often should you service your AC in Qatar? Expert advice on AC service frequency, signs of a dirty unit, and why quarterly servicing is essential in Qatar's climate.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/how-often-ac-service-qatar" },
-};
+  description: "How often should you service your AC in Qatar? Expert advice on AC service frequency, signs of a dirty unit, and why quarterly servicing is essential in Qatar",
+  path: "/blog/how-often-ac-service-qatar",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

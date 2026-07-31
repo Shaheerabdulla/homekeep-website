@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import SignsYouNeedAPlumberQatarVilla from "@/components/pages/blog/signs-you-need-a-plumber-qatar-villa";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Signs You Need a Plumber in Your Qatar Villa",
-  description:
-    "Low water pressure, slab leaks, water heater issues — warning signs Qatar villa owners shouldn't ignore, and when to call a plumber.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/signs-you-need-a-plumber-qatar-villa" },
-};
+  description: "Low water pressure, slab leaks, water heater issues — warning signs Qatar villa owners shouldn",
+  path: "/blog/signs-you-need-a-plumber-qatar-villa",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

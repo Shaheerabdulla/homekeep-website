@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import SimaismaContent from "@/components/pages/areas/simaisma";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AC Service Simaisma Qatar | Split AC Repair",
-  description:
-    "Split AC repair, anti-corrosion treatment & plumbing for Simaisma villas. Coastal specialists. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/areas/simaisma" },
-};
+  description: "Split AC repair, anti-corrosion treatment & plumbing for Simaisma villas. Coastal specialists. Call +974 5000 2548.",
+  path: "/areas/simaisma",
+  type: "website",
+});
 
 const schemas = [
   {

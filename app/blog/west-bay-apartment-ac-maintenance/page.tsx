@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import WestBayApartmentAcMaintenance from "@/components/pages/blog/west-bay-apartment-ac-maintenance";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "West Bay Apartment AC Maintenance Guide",
-  description:
-    "How AC maintenance differs for West Bay towers — FCU systems, building access coordination, and how often to service apartment units.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/west-bay-apartment-ac-maintenance" },
-};
+  description: "How AC maintenance differs for West Bay towers — FCU systems, building access coordination, and how often to service apartment units.",
+  path: "/blog/west-bay-apartment-ac-maintenance",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

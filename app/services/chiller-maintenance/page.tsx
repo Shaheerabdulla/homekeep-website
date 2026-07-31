@@ -1,22 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import ChillerMaintenanceContent from "@/components/pages/services/chiller-maintenance";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Chiller Maintenance Qatar | Residential Chiller Service",
-  description:
-    "Chiller servicing, condenser cleaning & fault diagnosis for Qatar villas. AMC contracts available. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/services/chiller-maintenance" },
-  keywords: [
-    "chiller maintenance Qatar",
-    "chiller maintenance Doha",
-    "residential chiller service Qatar",
-    "chiller repair Pearl Qatar",
-    "chiller servicing Lusail",
-    "chiller maintenance Simaisma",
-    "chiller AMC Qatar",
-    "chiller service Doha",
-  ],
-};
+  description: "Chiller servicing, condenser cleaning & fault diagnosis for Qatar villas. AMC contracts available. Call +974 5000 2548.",
+  path: "/services/chiller-maintenance",
+  type: "website",
+});
 
 const schema = [
   {
@@ -90,9 +81,26 @@ export default function Page() {
   return (
     <>
       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "name": "Residential & Commercial Chiller Maintenance Qatar",
+                "serviceType": "Central AC & Chiller Plant Servicing",
+                "provider": {
+                  "@type": "HVACContractor",
+                  "name": "Homekeep Qatar",
+                  "telephone": "+97450002548",
+                  "url": "https://www.homekeep.qa"
+                },
+                "areaServed": ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma", "Al Waab"],
+                "description": "Specialized maintenance and chemical flushing for villa chillers, central AC units, and chilled water pumps across Qatar."
+              }
+            ])
+          }}
+        />
       <ChillerMaintenanceContent />
     </>
   );

@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import LusailContent from "@/components/pages/areas/lusail";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AC Service Lusail City | HVAC & Plumbing",
-  description:
-    "AC, AHU & FCU servicing plus plumbing for Lusail City villas. Same/next-day response. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/areas/lusail" },
-};
+  description: "AC, AHU & FCU servicing plus plumbing for Lusail City villas. Same/next-day response. Call +974 5000 2548.",
+  path: "/areas/lusail",
+  type: "website",
+});
 
 const schemas = [
   {
@@ -77,9 +78,40 @@ export default function Page() {
   return (
     <>
       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HVACContractor",
+              "@id": "https://www.homekeep.qa/areas/lusail#organization",
+              "name": "Homekeep Qatar - Lusail AC & HVAC Specialist",
+              "telephone": "+97450002548",
+              "url": "https://www.homekeep.qa/areas/lusail",
+              "image": "https://www.homekeep.qa/opengraph.jpg",
+              "priceRange": "QAR 150 - QAR 1500",
+              "description": "Fast-response AC repair, FCU servicing, central chiller maintenance, and villa plumbing across Fox Hills, Marina District, and Lusail Islands.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Lusail City",
+                "addressRegion": "Al Daayen",
+                "addressCountry": "QA"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "25.4182",
+                "longitude": "51.5034"
+              },
+              "areaServed": [
+                "Lusail",
+                "Fox Hills",
+                "Marina District",
+                "Lusail Hills",
+                "Yasmeen City",
+                "Golf District"
+              ]
+            })
+          }}
+        />
       <LusailContent />
     </>
   );

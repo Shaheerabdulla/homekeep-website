@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import SignsFcuNeedsCleaning from "@/components/pages/blog/signs-fcu-needs-cleaning";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "5 Signs Your FCU Unit Needs Cleaning | Qatar Villa Guide",
-  description:
-    "5 warning signs your FCU unit needs cleaning: water dripping, musty smell, weak airflow, ice on coils, and rising electricity bills. Qatar villa guide from Homekeep.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/signs-fcu-needs-cleaning" },
-};
+  description: "5 warning signs your FCU unit needs cleaning: water dripping, musty smell, weak airflow, ice on coils, and rising electricity bills. Qatar villa guide from Homekeep.",
+  path: "/blog/signs-fcu-needs-cleaning",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

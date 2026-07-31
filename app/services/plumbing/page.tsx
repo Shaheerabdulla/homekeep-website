@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import PlumbingContent from "@/components/pages/services/plumbing";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Plumber Doha Qatar | Emergency Plumbing Services",
-  description:
-    "Emergency & residential plumbing in Doha, Pearl Qatar & Lusail. Leak repair, drain unblocking, fixtures. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/services/plumbing" },
-};
+  description: "Emergency & residential plumbing in Doha, Pearl Qatar & Lusail. Leak repair, drain unblocking, fixtures. Call +974 5000 2548.",
+  path: "/services/plumbing",
+  type: "website",
+});
 
 const schemas = [
   {
@@ -80,9 +81,25 @@ export default function Page() {
   return (
     <>
       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "name": "Plumbing & Water Pump Services Qatar",
+                "serviceType": "Villa & Residential Plumbing Repair",
+                "provider": {
+                  "@type": "HVACContractor",
+                  "name": "Homekeep Qatar",
+                  "telephone": "+97450002548",
+                  "url": "https://www.homekeep.qa"
+                },
+                "areaServed": ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma", "Al Waab"]
+              }
+            ])
+          }}
+        />
       <PlumbingContent />
     </>
   );

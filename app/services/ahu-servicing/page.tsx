@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import AhuServicingContent from "@/components/pages/services/ahu-servicing";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AHU Servicing Qatar | Air Handling Unit Maintenance",
-  description:
-    "Professional AHU servicing for villas in Doha, Pearl Qatar & Lusail. Same-day response. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/services/ahu-servicing" },
-};
+  description: "Professional AHU servicing for villas in Doha, Pearl Qatar & Lusail. Same-day response. Call +974 5000 2548.",
+  path: "/services/ahu-servicing",
+  type: "website",
+});
 
 const schemas = [
   {
@@ -72,9 +73,40 @@ export default function Page() {
   return (
     <>
       <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              {
+                "@context": "https://schema.org",
+                "@type": "Service",
+                "name": "AHU Servicing & Maintenance Qatar",
+                "serviceType": "Air Handling Unit Servicing & Filter Replacement",
+                "provider": {
+                  "@type": "HVACContractor",
+                  "name": "Homekeep Qatar",
+                  "telephone": "+97450002548",
+                  "url": "https://www.homekeep.qa"
+                },
+                "areaServed": ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma"],
+                "hasOfferCatalog": {
+                  "@type": "OfferCatalog",
+                  "name": "AHU Maintenance",
+                  "itemListElement": [
+                    {
+                      "@type": "Offer",
+                      "itemOffered": {
+                        "@type": "Service",
+                        "name": "Comprehensive AHU Cleaning & Blower Maintenance"
+                      },
+                      "price": "700.00",
+                      "priceCurrency": "QAR"
+                    }
+                  ]
+                }
+              }
+            ])
+          }}
+        />
       <AhuServicingContent />
     </>
   );

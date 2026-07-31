@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import RamadanMaintenanceChecklistQatar from "@/components/pages/blog/ramadan-maintenance-checklist-qatar";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Ramadan Home Maintenance Checklist for Qatar Villas",
-  description:
-    "Prepare your Qatar villa's AC, plumbing, and pool for Ramadan hosting — a pre-Ramadan maintenance checklist for villa owners.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/ramadan-maintenance-checklist-qatar" },
-};
+  description: "Prepare your Qatar villa",
+  path: "/blog/ramadan-maintenance-checklist-qatar",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

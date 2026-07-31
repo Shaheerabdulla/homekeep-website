@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import BlogIndexContent from "@/components/pages/blog/index";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AC & HVAC Maintenance Blog Qatar | Homekeep Tips & Advice",
-  description:
-    "Expert advice on AC service frequency, FCU cleaning signs, AHU maintenance, and home HVAC care in Qatar. Practical tips for Pearl Qatar, Lusail, West Bay and Doha homeowners.",
-  alternates: { canonical: "https://www.homekeep.qa/blog" },
-};
+  description: "Expert advice on AC service frequency, FCU cleaning signs, AHU maintenance, and home HVAC care in Qatar. Practical tips for Pearl Qatar, Lusail, West Bay and Doha homeowners.",
+  path: "/blog",
+  type: "website",
+});
 
 const schema = {
   "@context": "https://schema.org",

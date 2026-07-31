@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import DohaContent from "@/components/pages/areas/doha";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AC Service Doha Qatar | HVAC & Plumbing",
-  description:
-    "AC, AHU, FCU, chiller & plumbing service for Doha villas and apartments. Same/next-day response. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/areas/doha" },
-};
+  description: "AC, AHU, FCU, chiller & plumbing service for Doha villas and apartments. Same/next-day response. Call +974 5000 2548.",
+  path: "/areas/doha",
+  type: "website",
+});
 
 const schemas = [
   {

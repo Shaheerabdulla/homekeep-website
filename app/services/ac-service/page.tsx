@@ -1,23 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import AcServiceContent from "@/components/pages/services/ac-service";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "AC Service & Repair Qatar | Split & Ducted AC",
-  description:
-    "Split & ducted AC service and repair in Qatar. Cleaning, refrigerant top-up, 24/7 emergency repair. From QAR 150. Call +974 5000 2548.",
-  alternates: { canonical: "https://www.homekeep.qa/services/ac-service" },
-  keywords: [
-    "AC service Qatar",
-    "AC service Doha",
-    "AC repair Qatar",
-    "AC repair Doha",
-    "air conditioning service Qatar",
-    "emergency AC repair Doha",
-    "split AC service Qatar",
-    "AC maintenance Pearl Qatar",
-    "ducted AC service Qatar",
-  ],
-};
+  description: "Split & ducted AC service and repair in Qatar. Cleaning, refrigerant top-up, 24/7 emergency repair. From QAR 150. Call +974 5000 2548.",
+  path: "/services/ac-service",
+  type: "website",
+});
 
 const schemas = [
   {

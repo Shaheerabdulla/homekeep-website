@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import LusailVillaMaintenanceChecklist2026 from "@/components/pages/blog/lusail-villa-maintenance-checklist-2026";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Lusail Villa Maintenance Checklist 2026",
-  description:
-    "Complete 2026 maintenance checklist for Lusail villas. Quarterly, biannual, and annual tasks tailored to Lusail's ongoing construction and dust levels.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/lusail-villa-maintenance-checklist-2026" },
-};
+  description: "Complete 2026 maintenance checklist for Lusail villas. Quarterly, biannual, and annual tasks tailored to Lusail",
+  path: "/blog/lusail-villa-maintenance-checklist-2026",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",

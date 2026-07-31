@@ -1,12 +1,13 @@
+import { generatePageMetadata } from "@/lib/metadata";
 import type { Metadata } from "next";
 import AmcWorthItQatar from "@/components/pages/blog/amc-worth-it-qatar";
 
-export const metadata: Metadata = {
+export const metadata = generatePageMetadata({
   title: "Is an AC Annual Maintenance Contract Worth It in Qatar?",
-  description:
-    "AMC vs pay-as-you-go AC servicing in Qatar — we break down the real numbers for a typical Doha villa. Is an Annual Maintenance Contract worth it? Honest analysis.",
-  alternates: { canonical: "https://www.homekeep.qa/blog/amc-worth-it-qatar" },
-};
+  description: "AMC vs pay-as-you-go AC servicing in Qatar — we break down the real numbers for a typical Doha villa. Is an Annual Maintenance Contract worth it? Honest analysis.",
+  path: "/blog/amc-worth-it-qatar",
+  type: "article",
+});
 
 const schema = {
   "@context": "https://schema.org",
