@@ -29,19 +29,72 @@ const homepageSchema = [
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    name: "Homekeep Qatar",
+    name: "Homekeep Improvements",
     telephone: "+97450002548",
     url: "https://www.homekeep.qa",
+    logo: "https://www.homekeep.qa/homekeep-logo.jpg",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Doha",
       addressCountry: "QA",
     },
+    areaServed: [
+      "Doha",
+      "Pearl Qatar",
+      "Lusail",
+      "West Bay",
+      "Simaisma"
+    ],
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "5.0",
       reviewCount: "3",
     },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Homekeep Improvements",
+    url: "https://www.homekeep.qa",
+    logo: "https://www.homekeep.qa/homekeep-logo.jpg",
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+97450002548",
+      contactType: "customer service",
+      areaServed: "QA",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Homekeep HVAC and Maintenance Services Qatar",
+    itemListElement: [
+      {
+        "@type": "Service",
+        name: "AC Service Qatar",
+        url: "https://www.homekeep.qa/services/ac-service"
+      },
+      {
+        "@type": "Service",
+        name: "FCU Servicing Qatar",
+        url: "https://www.homekeep.qa/services/fcu-servicing"
+      },
+      {
+        "@type": "Service",
+        name: "AHU Servicing Qatar",
+        url: "https://www.homekeep.qa/services/ahu-servicing"
+      },
+      {
+        "@type": "Service",
+        name: "Chiller Maintenance Qatar",
+        url: "https://www.homekeep.qa/services/chiller-maintenance"
+      },
+      {
+        "@type": "Service",
+        name: "Plumbing Services Qatar",
+        url: "https://www.homekeep.qa/services/plumbing"
+      }
+    ]
   },
   {
     "@context": "https://schema.org",
@@ -60,7 +113,7 @@ const homepageSchema = [
         name: "Are your technicians certified?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Absolutely. All our technicians undergo rigorous training and are certified to handle complex HVAC systems, including central chillers and VRF systems.",
+          text: "Our technicians are trained to handle residential HVAC systems including FCU, AHU, VRF and central chiller systems.",
         },
       },
       {
@@ -68,7 +121,7 @@ const homepageSchema = [
         name: "Do you provide annual maintenance contracts (AMCs)?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Yes, we offer tailored annual maintenance contracts for villas and apartments to keep your AC and plumbing systems running efficiently year-round.",
+          text: "Yes, Homekeep provides annual maintenance contracts for villas and apartments covering AC, HVAC and plumbing systems.",
         },
       },
       {
@@ -76,7 +129,7 @@ const homepageSchema = [
         name: "What areas do you cover?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "We proudly serve all premium residential communities in Qatar, with focused rapid response in The Pearl Qatar, Lusail City, West Bay, and Simaisma.",
+          text: "We serve Doha, Pearl Qatar, Lusail, West Bay, Simaisma and surrounding areas across Qatar.",
         },
       },
     ],
