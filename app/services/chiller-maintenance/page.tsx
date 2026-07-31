@@ -1,107 +1,225 @@
 import { generatePageMetadata } from "@/lib/metadata";
-import type { Metadata } from "next";
 import ChillerMaintenanceContent from "@/components/pages/services/chiller-maintenance";
 
+
 export const metadata = generatePageMetadata({
-  title: "Chiller Maintenance Qatar | Residential Chiller Service",
-  description: "Chiller servicing, condenser cleaning & fault diagnosis for Qatar villas. AMC contracts available. Call +974 5000 2548.",
-  path: "/services/chiller-maintenance",
-  type: "website",
+
+  title:
+    "Chiller Maintenance Qatar | Central AC Chiller Service Doha",
+
+  description:
+    "Professional chiller maintenance in Qatar for villas, buildings and commercial properties. Complete chiller servicing, condenser cleaning, chilled water system checks and AMC contracts in Doha, Pearl Qatar and Lusail.",
+
+  path:
+    "/services/chiller-maintenance",
+
+  type:
+    "website",
+
 });
 
+
 const schema = [
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: "Chiller Maintenance Qatar",
-    provider: {
-      "@type": "LocalBusiness",
-      name: "Homekeep Qatar",
-      telephone: "+97450002548",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Doha",
-        addressCountry: "QA",
-      },
-    },
-    areaServed: ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma"],
-    description:
-      "Professional residential chiller maintenance, servicing, and repair for villas in Doha, Pearl Qatar, Lusail and West Bay Qatar.",
-    serviceType: "Chiller Maintenance",
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What type of chiller systems do you maintain in Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We maintain air-cooled and water-cooled residential chillers from all major manufacturers including Carrier, York, Trane, McQuay, Daikin, and Climaveneta — commonly found in large villas in Pearl Qatar, Lusail, and West Bay.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How often should a residential chiller be serviced in Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Quarterly preventative maintenance visits are recommended for residential chillers in Qatar. Full annual overhauls — including tube cleaning and complete refrigerant system checks — should be done once yearly, ideally before summer.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What are warning signs of chiller problems?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Warning signs include rooms not cooling adequately, unusual noises from the chiller plant room, increased electricity consumption, frequent tripping, water temperature alarms, or ice forming on any part of the chiller.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you service chillers in Pearl Qatar villas?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes — chiller maintenance in Pearl Qatar is a core part of our business. The large compound and standalone villas in The Pearl, Porto Arabia, and Viva Bahriyah frequently feature standalone residential chiller plants that we are specialists in maintaining.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can you provide an annual maintenance contract for my chiller?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Absolutely. We offer customized Annual Maintenance Contracts for residential chillers in Qatar, including regular scheduled visits, spare parts management, and 24/7 emergency priority response.",
-        },
-      },
-    ],
-  },
+
+{
+"@context":"https://schema.org",
+
+"@type":"Service",
+
+"@id":
+"https://www.homekeep.qa/services/chiller-maintenance#service",
+
+"name":
+"Chiller Maintenance Qatar",
+
+"serviceType":
+"Central Chiller System Maintenance",
+
+"description":
+"Professional residential and commercial chiller maintenance including condenser cleaning, chilled water system inspection, pump checks, fault diagnosis and preventive maintenance in Qatar.",
+
+
+"provider":{
+
+"@type":[
+"LocalBusiness",
+"HVACBusiness"
+],
+
+"name":
+"Homekeep Improvements",
+
+"url":
+"https://www.homekeep.qa",
+
+"telephone":
+"+97450002548",
+
+"address":{
+
+"@type":"PostalAddress",
+
+"addressLocality":
+"Doha",
+
+"addressCountry":
+"QA"
+
+}
+
+},
+
+
+"areaServed":[
+
+"Doha",
+"Pearl Qatar",
+"Lusail",
+"West Bay",
+"Simaisma",
+"Al Waab"
+
+],
+
+
+"offers":{
+
+"@type":"Offer",
+
+"priceCurrency":
+"QAR",
+
+"availability":
+"https://schema.org/InStock",
+
+"url":
+"https://www.homekeep.qa/services/chiller-maintenance"
+
+},
+
+
+"image":
+"https://www.homekeep.qa/opengraph.jpg"
+
+},
+
+
+
+{
+
+"@context":"https://schema.org",
+
+"@type":"FAQPage",
+
+"mainEntity":[
+
+
+{
+
+"@type":"Question",
+
+"name":
+"What chiller systems do you maintain in Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Homekeep maintains residential and commercial chiller systems including air-cooled chillers, water-cooled chillers, chilled water pumps and FCU connected systems across Qatar."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"How often should a chiller be serviced in Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Chillers in Qatar should receive preventive maintenance quarterly, with major inspection before summer due to high cooling demand and extreme temperatures."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Do you provide chiller AMC contracts in Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Yes, Homekeep provides customized annual maintenance contracts for villa and commercial chiller systems including scheduled inspections and emergency support."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Do you service chiller systems in Pearl Qatar and Lusail villas?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Yes, we specialize in residential chiller maintenance for villas and apartments in Pearl Qatar, Lusail, West Bay and Doha."
+
+}
+
+}
+
+
+]
+
+}
+
 ];
 
-export default function Page() {
-  return (
-    <>
-      <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify([
-              {
-                "@context": "https://schema.org",
-                "@type": "Service",
-                "name": "Residential & Commercial Chiller Maintenance Qatar",
-                "serviceType": "Central AC & Chiller Plant Servicing",
-                "provider": {
-                  "@type": "HVACContractor",
-                  "name": "Homekeep Qatar",
-                  "telephone": "+97450002548",
-                  "url": "https://www.homekeep.qa"
-                },
-                "areaServed": ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma", "Al Waab"],
-                "description": "Specialized maintenance and chemical flushing for villa chillers, central AC units, and chilled water pumps across Qatar."
-              }
-            ])
-          }}
-        />
-      <ChillerMaintenanceContent />
-    </>
-  );
+
+export default function Page(){
+
+return (
+
+<>
+
+<script
+
+type="application/ld+json"
+
+dangerouslySetInnerHTML={{
+
+__html:
+JSON.stringify(schema)
+
+}}
+
+/>
+
+<ChillerMaintenanceContent />
+
+</>
+
+);
+
 }

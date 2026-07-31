@@ -1,73 +1,245 @@
 import { generatePageMetadata } from "@/lib/metadata";
-import type { Metadata } from "next";
 import AmcContent from "@/components/pages/amc";
 
+
 export const metadata = generatePageMetadata({
-  title: "AC AMC Qatar | Annual Maintenance Contract",
-  description: "Annual Maintenance Contracts for AC, AHU, FCU, chiller & plumbing in Qatar. From QAR 2,000/year. Call +974 5000 2548.",
-  path: "/amc",
-  type: "website",
+
+  title:
+    "AC AMC Qatar | Annual Maintenance Contract for Villas & Buildings",
+
+  description:
+    "Premium AC AMC in Qatar covering AC, FCU, AHU, chiller and plumbing systems. Annual maintenance contracts for villas, apartments and commercial properties in Doha, Pearl Qatar and Lusail.",
+
+  path:
+    "/amc",
+
+  type:
+    "website",
+
 });
 
+
 const schemas = [
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: "Annual Maintenance Contract Qatar",
-    provider: {
-      "@type": "LocalBusiness",
-      name: "Homekeep Qatar",
-      telephone: "+97450002548",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Doha",
-        addressCountry: "QA",
-      },
-    },
-    areaServed: ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma"],
-    description:
-      "Annual Maintenance Contracts (AMC) for AC, AHU, FCU, chiller and plumbing services in Qatar. Residential villa and apartment AMC packages in Doha.",
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "What is an AMC for AC in Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "An Annual Maintenance Contract (AMC) for AC in Qatar is a yearly service agreement that covers scheduled servicing of your air conditioning units — typically 4 quarterly visits — at a fixed annual price. AMCs include priority emergency response, discounted labour rates, and often no call-out charges.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much does an AC AMC cost in Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "AC AMC prices in Qatar start from around QAR 2,000 per year for a small apartment (up to 4 units) and scale based on number of units, system type (split, ducted, FCU, chiller), and property size. Contact Homekeep for a custom quote.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What does an AMC include in Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "A typical residential AMC in Qatar includes 4 scheduled maintenance visits per year, priority emergency response, filter cleaning/replacement, coil cleaning, drain servicing, refrigerant checks, and discounted parts. Premium AMCs may also cover AHU, FCU, chiller, and plumbing systems.",
-        },
-      },
-    ],
-  },
+
+{
+
+"@context":"https://schema.org",
+
+"@type":"Service",
+
+"@id":
+"https://www.homekeep.qa/amc#service",
+
+"name":
+"AC Annual Maintenance Contract Qatar",
+
+"serviceType":
+"HVAC Annual Maintenance Contract",
+
+"description":
+"Annual maintenance contracts for AC, FCU, AHU, chiller and plumbing systems including scheduled inspections, preventive maintenance and priority support in Qatar.",
+
+
+"provider":{
+
+"@type":[
+"LocalBusiness",
+"HVACBusiness"
+],
+
+"name":
+"Homekeep Improvements",
+
+"url":
+"https://www.homekeep.qa",
+
+"telephone":
+"+97450002548",
+
+"address":{
+
+"@type":"PostalAddress",
+
+"addressLocality":
+"Doha",
+
+"addressCountry":
+"QA"
+
+}
+
+},
+
+
+"areaServed":[
+
+"Doha",
+"Pearl Qatar",
+"Lusail",
+"West Bay",
+"Simaisma",
+"Al Wakrah",
+"Al Rayyan"
+
+],
+
+
+"offers":{
+
+"@type":"Offer",
+
+"priceCurrency":
+"QAR",
+
+"price":
+"2000",
+
+"url":
+"https://www.homekeep.qa/amc",
+
+"availability":
+"https://schema.org/InStock"
+
+}
+
+},
+
+
+
+{
+
+"@context":"https://schema.org",
+
+"@type":"FAQPage",
+
+"mainEntity":[
+
+
+{
+
+"@type":"Question",
+
+"name":
+"What is an AC AMC in Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"An AC Annual Maintenance Contract is a yearly agreement covering scheduled AC inspections, cleaning, preventive maintenance and priority service support for residential and commercial properties."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"How much does an AC AMC cost in Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"AC AMC pricing in Qatar depends on the number of units, property size and system type. Homekeep provides customized AMC packages for apartments, villas and buildings."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"What systems are covered under your AMC?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Our AMC packages cover split AC, FCU, AHU, chiller systems, plumbing and selected electrical maintenance requirements."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Do you provide villa AMC in Pearl Qatar and Lusail?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Yes, Homekeep provides premium villa AMC packages in Pearl Qatar, Lusail, West Bay and Doha for reliable year-round cooling performance."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"How many maintenance visits are included in an AMC?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"AMC packages can include scheduled quarterly visits, preventive inspections, cleaning, performance checks and priority emergency response depending on the selected plan."
+
+}
+
+}
+
+
+]
+
+}
+
 ];
 
-export default function Page() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
-      <AmcContent />
-    </>
-  );
+
+export default function Page(){
+
+return (
+
+<>
+
+<script
+
+type="application/ld+json"
+
+dangerouslySetInnerHTML={{
+
+__html:
+JSON.stringify(schemas)
+
+}}
+
+/>
+
+<AmcContent />
+
+</>
+
+);
+
 }

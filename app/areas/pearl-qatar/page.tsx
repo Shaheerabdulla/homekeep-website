@@ -1,118 +1,228 @@
 import { generatePageMetadata } from "@/lib/metadata";
-import type { Metadata } from "next";
 import PearlQatarContent from "@/components/pages/areas/pearl-qatar";
 
+
 export const metadata = generatePageMetadata({
-  title: "AC Service Pearl Qatar | FCU & AHU Servicing",
-  description: "AC, FCU, AHU, chiller & plumbing service for Pearl Qatar villas. Same/next-day response. Call +974 5000 2548.",
-  path: "/areas/pearl-qatar",
-  type: "website",
+
+  title:
+    "AC Service Pearl Qatar | FCU Cleaning & Villa Maintenance",
+
+  description:
+    "Premium AC service in Pearl Qatar for villas and apartments. Homekeep provides FCU cleaning, AHU servicing, chiller maintenance, plumbing and HVAC AMC in Porto Arabia, Viva Bahriya and Qanat Quartier.",
+
+  path:
+    "/areas/pearl-qatar",
+
+  type:
+    "website",
+
 });
 
+
 const schemas = [
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    name: "Homekeep Qatar — AC & HVAC Services Pearl Qatar",
-    telephone: "+97450002548",
-    url: "https://www.homekeep.qa/areas/pearl-qatar",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Pearl Qatar",
-      addressRegion: "Doha",
-      addressCountry: "QA",
-    },
-    areaServed: "Pearl Qatar",
-    description:
-      "AC service, FCU servicing, AHU maintenance, chiller care, and plumbing for villas in Pearl Qatar.",
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Who does AC service in Pearl Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Homekeep provides AC and HVAC services throughout Pearl Qatar. We cover FCU servicing, AHU maintenance, chiller care, and plumbing for villas and compounds. We operate 7 days a week with same/next-day availability.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How much does FCU servicing cost in Pearl Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "FCU servicing in Pearl Qatar starts from QAR 225 per unit for a full service and clean. Chemical deep clean starts from QAR 320 per unit. We always confirm the final price before starting work.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you service all compounds in Pearl Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes — we service villas and apartments across all Pearl Qatar precincts including Porto Arabia, Medina Centrale, Viva Bahriyah, Qanat Quartier, and all gated compounds. We work within compound management requirements and can coordinate access in advance.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How often should FCU units be serviced in Pearl Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We recommend servicing FCU units every 3 months given Qatar's climate and the dusty season. Pearl Qatar's proximity to the sea also means salt air can affect FCU coils faster than inland properties. Quarterly servicing under an AMC is the most cost-effective approach.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can you service my chiller in Pearl Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes — residential chiller maintenance is a core Homekeep service. We inspect, service, and carry out condenser tube cleaning for chillers in Pearl Qatar villas. Chiller service visits start from QAR 1,200.",
-        },
-      },
-    ],
-  },
+
+{
+
+"@context":"https://schema.org",
+
+"@type":[
+"LocalBusiness",
+"HVACBusiness"
+],
+
+"@id":
+"https://www.homekeep.qa/areas/pearl-qatar#business",
+
+"name":
+"Homekeep Improvements Pearl Qatar",
+
+"url":
+"https://www.homekeep.qa/areas/pearl-qatar",
+
+"telephone":
+"+97450002548",
+
+"image":
+"https://www.homekeep.qa/opengraph.jpg",
+
+"description":
+"AC repair, FCU servicing, chiller maintenance and villa maintenance services in Pearl Qatar.",
+
+
+"address":{
+
+"@type":"PostalAddress",
+
+"addressLocality":
+"Pearl Qatar",
+
+"addressRegion":
+"Doha",
+
+"addressCountry":
+"QA"
+
+},
+
+
+"geo":{
+
+"@type":"GeoCoordinates",
+
+"latitude":
+"25.3712",
+
+"longitude":
+"51.5514"
+
+},
+
+
+"areaServed":[
+
+"Pearl Qatar",
+"Porto Arabia",
+"Viva Bahriya",
+"Qanat Quartier",
+"Isola Dana",
+"Abraj Bay"
+
+],
+
+
+"offers":{
+
+"@type":"Offer",
+
+"priceCurrency":
+"QAR",
+
+"price":
+"150",
+
+"url":
+"https://www.homekeep.qa/services/ac-service"
+
+}
+
+},
+
+
+
+{
+
+"@context":"https://schema.org",
+
+"@type":"FAQPage",
+
+"mainEntity":[
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Who provides AC service in Pearl Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Homekeep provides AC repair, FCU cleaning, AHU servicing, chiller maintenance and villa maintenance services across Pearl Qatar including Porto Arabia, Viva Bahriya and Qanat Quartier."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Do you service FCU units in Pearl Qatar apartments?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Yes, FCU servicing and chemical cleaning are among our main services for Pearl Qatar apartments and villas connected to chilled water systems."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Do you provide chiller maintenance in Pearl Qatar villas?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Yes, Homekeep provides residential chiller maintenance including inspection, cleaning and preventive maintenance for Pearl Qatar villas."
+
+}
+
+},
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Do you offer AC maintenance contracts in Pearl Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Yes, Homekeep offers annual maintenance contracts covering AC, FCU, chiller, plumbing and villa maintenance requirements."
+
+}
+
+}
+
+]
+
+}
+
 ];
 
-export default function Page() {
-  return (
-    <>
-      <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "HVACContractor",
-              "@id": "https://www.homekeep.qa/areas/pearl-qatar#organization",
-              "name": "Homekeep Qatar - Pearl Qatar AC & Maintenance Specialist",
-              "telephone": "+97450002548",
-              "url": "https://www.homekeep.qa/areas/pearl-qatar",
-              "image": "https://www.homekeep.qa/opengraph.jpg",
-              "priceRange": "QAR 150 - QAR 1500",
-              "description": "Premium villa & apartment AC servicing, FCU chemical washing, chiller maintenance, and emergency repair across Porto Arabia, Viva Bahriya, and Qanat Quartier in Pearl Qatar.",
-              "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "The Pearl Qatar",
-                "addressRegion": "Doha",
-                "addressCountry": "QA"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "25.3712",
-                "longitude": "51.5514"
-              },
-              "areaServed": [
-                "Pearl Qatar",
-                "Porto Arabia",
-                "Viva Bahriya",
-                "Qanat Quartier",
-                "Isola Dana",
-                "Abraj Bay"
-              ]
-            })
-          }}
-        />
-      <PearlQatarContent />
-    </>
-  );
+
+export default function Page(){
+
+return (
+
+<>
+
+<script
+
+type="application/ld+json"
+
+dangerouslySetInnerHTML={{
+
+__html:
+JSON.stringify(schemas)
+
+}}
+
+/>
+
+<PearlQatarContent />
+
+</>
+
+);
+
 }

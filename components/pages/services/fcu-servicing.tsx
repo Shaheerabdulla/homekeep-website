@@ -148,7 +148,45 @@ export default function FcuServicingPage() {
             </div>
           </div>
         </section>
-      </main>
+      
+<section className="py-16 bg-secondary/30">
+<div className="container mx-auto px-4 md:px-6 max-w-6xl">
+
+<h2 className="text-3xl font-serif font-bold text-center mb-8">
+FCU & Central Cooling Guides Qatar
+</h2>
+
+<div className="grid md:grid-cols-3 gap-6">
+
+<Link href="/services/ac-service"
+className="rounded-2xl border p-6 hover:border-primary transition">
+<h3 className="font-bold text-lg">AC Service Qatar</h3>
+<p className="text-sm text-muted-foreground">
+Complete AC repair and maintenance across Doha.
+</p>
+</Link>
+
+<Link href="/services/chiller-maintenance"
+className="rounded-2xl border p-6 hover:border-primary transition">
+<h3 className="font-bold text-lg">Chiller Maintenance Qatar</h3>
+<p className="text-sm text-muted-foreground">
+Residential chiller servicing and preventive maintenance.
+</p>
+</Link>
+
+<Link href="/areas/pearl-qatar"
+className="rounded-2xl border p-6 hover:border-primary transition">
+<h3 className="font-bold text-lg">FCU Servicing Pearl Qatar</h3>
+<p className="text-sm text-muted-foreground">
+FCU cleaning for villas and apartments.
+</p>
+</Link>
+
+</div>
+</div>
+</section>
+
+</main>
 
       <Footer />
       <a href="https://wa.me/97450002548" target="_blank" rel="noreferrer" className="fixed bottom-6 right-6 z-50 flex items-center justify-center h-16 w-16 bg-[#25D366] text-white rounded-full shadow-2xl hover:scale-110 transition-transform duration-300" aria-label="Chat on WhatsApp">

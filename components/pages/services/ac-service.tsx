@@ -17,16 +17,87 @@ const fadeIn = {
 const schema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "AC Service and Repair Doha Qatar",
+  "@id": "https://www.homekeep.qa/services/ac-service#service",
+  "name": "AC Service & Repair Qatar",
+  "serviceType": "Air Conditioning Service",
+  "description": "Professional AC repair, maintenance, deep cleaning, refrigerant checking and emergency AC service for villas, apartments and commercial properties across Doha, Pearl Qatar, Lusail and West Bay.",
+  
   "provider": {
-    "@type": "LocalBusiness",
+    "@type": "HVACContractor",
+    "@id": "https://www.homekeep.qa/#organization",
     "name": "Homekeep Qatar",
+    "url": "https://www.homekeep.qa",
     "telephone": "+97450002548",
-    "address": { "@type": "PostalAddress", "addressLocality": "Doha", "addressCountry": "QA" }
+    "priceRange": "QAR 150 - QAR 1500",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Doha",
+      "addressCountry": "QA"
+    }
   },
-  "areaServed": ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma"],
-  "description": "Professional residential AC repair, service, installation and maintenance in Doha, Pearl Qatar, Lusail and West Bay. 24/7 emergency AC service available.",
-  "serviceType": "Air Conditioning Service"
+
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Doha"
+    },
+    {
+      "@type": "Place",
+      "name": "Pearl Qatar"
+    },
+    {
+      "@type": "Place",
+      "name": "Lusail"
+    },
+    {
+      "@type": "Place",
+      "name": "West Bay"
+    },
+    {
+      "@type": "Place",
+      "name": "Simaisma"
+    }
+  ],
+
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "AC Services Qatar",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "price": "150",
+        "priceCurrency": "QAR",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Split AC Service Qatar"
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "225",
+        "priceCurrency": "QAR",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "FCU Servicing Qatar"
+        }
+      },
+      {
+        "@type": "Offer",
+        "price": "700",
+        "priceCurrency": "QAR",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AHU Servicing Qatar"
+        }
+      }
+    ]
+  },
+
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://www.homekeep.qa/services/ac-service",
+    "servicePhone": "+97450002548"
+  }
 };
 
 const faqSchema = {
@@ -186,7 +257,248 @@ export default function AcServicePage() {
           </div>
         </section>
 
-        <QuoteSection service="AC Service & Repair" />
+        
+<section className="py-16 bg-white">
+  <div className="container mx-auto px-4 md:px-6 max-w-5xl">
+
+    <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6 text-center">
+      Complete HVAC Solutions Across Qatar
+    </h2>
+
+    <p className="text-muted-foreground text-center max-w-3xl mx-auto mb-10">
+      Homekeep provides complete cooling solutions beyond regular AC repair.
+      Our specialists handle FCU servicing, chiller maintenance, AHU systems
+      and annual maintenance contracts for villas, apartments and commercial
+      properties across Qatar.
+    </p>
+
+    <div className="grid md:grid-cols-3 gap-6">
+
+      <Link
+        href="/services/fcu-servicing"
+        className="rounded-2xl border border-border p-6 hover:border-primary transition"
+      >
+        <h3 className="font-bold text-lg mb-2">
+          FCU Servicing Qatar
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          Professional FCU cleaning, coil washing and maintenance
+          for chilled water apartments in Pearl Qatar, Lusail and West Bay.
+        </p>
+      </Link>
+
+
+      <Link
+        href="/services/chiller-maintenance"
+        className="rounded-2xl border border-border p-6 hover:border-primary transition"
+      >
+        <h3 className="font-bold text-lg mb-2">
+          Chiller Maintenance Qatar
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          Residential chiller inspection, preventive maintenance and
+          central cooling solutions for Qatar villas.
+        </p>
+      </Link>
+
+
+      <Link
+        href="/services/ahu-servicing"
+        className="rounded-2xl border border-border p-6 hover:border-primary transition"
+      >
+        <h3 className="font-bold text-lg mb-2">
+          AHU Servicing Qatar
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          AHU cleaning, filter replacement and airflow optimisation
+          for commercial and residential buildings.
+        </p>
+      </Link>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<section className="py-14 bg-secondary/30">
+  <div className="container mx-auto px-4 md:px-6 max-w-5xl">
+
+    <h2 className="text-3xl font-serif font-bold text-center mb-8">
+      Related HVAC Services in Qatar
+    </h2>
+
+    <div className="flex flex-wrap justify-center gap-3">
+
+      <Link
+        href="/services/fcu-servicing"
+        className="px-5 py-3 rounded-full border border-border bg-white text-sm font-medium hover:border-primary"
+      >
+        FCU Servicing Qatar
+      </Link>
+
+      <Link
+        href="/services/ahu-servicing"
+        className="px-5 py-3 rounded-full border border-border bg-white text-sm font-medium hover:border-primary"
+      >
+        AHU Servicing Qatar
+      </Link>
+
+      <Link
+        href="/services/chiller-maintenance"
+        className="px-5 py-3 rounded-full border border-border bg-white text-sm font-medium hover:border-primary"
+      >
+        Chiller Maintenance Qatar
+      </Link>
+
+      <Link
+        href="/amc"
+        className="px-5 py-3 rounded-full border border-border bg-white text-sm font-medium hover:border-primary"
+      >
+        AC AMC Qatar
+      </Link>
+
+    </div>
+
+
+    <h3 className="text-xl font-bold mt-12 mb-5 text-center">
+      AC Service Areas We Cover
+    </h3>
+
+    <div className="flex flex-wrap justify-center gap-3">
+
+      <Link href="/areas/pearl-qatar"
+        className="px-4 py-2 rounded-full border text-sm hover:border-primary">
+        AC Service Pearl Qatar
+      </Link>
+
+      <Link href="/areas/lusail"
+        className="px-4 py-2 rounded-full border text-sm hover:border-primary">
+        AC Service Lusail
+      </Link>
+
+      <Link href="/areas/west-bay"
+        className="px-4 py-2 rounded-full border text-sm hover:border-primary">
+        AC Service West Bay
+      </Link>
+
+      <Link href="/areas/doha"
+        className="px-4 py-2 rounded-full border text-sm hover:border-primary">
+        AC Service Doha
+      </Link>
+
+    </div>
+
+
+    <h3 className="text-xl font-bold mt-12 mb-5 text-center">
+      Helpful AC Guides
+    </h3>
+
+    <div className="grid md:grid-cols-3 gap-4">
+
+      <Link href="/blog/how-often-ac-service-qatar"
+        className="border rounded-xl p-4 bg-white hover:border-primary">
+        How Often Should AC Be Serviced in Qatar?
+      </Link>
+
+      <Link href="/blog/signs-fcu-needs-cleaning"
+        className="border rounded-xl p-4 bg-white hover:border-primary">
+        Signs Your FCU Needs Cleaning
+      </Link>
+
+      <Link href="/blog/ac-service-cost-qatar-2026"
+        className="border rounded-xl p-4 bg-white hover:border-primary">
+        AC Service Cost Qatar 2026
+      </Link>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<section className="py-16 bg-secondary/30">
+  <div className="container mx-auto px-4 md:px-6 max-w-6xl">
+
+    <h2 className="text-3xl md:text-4xl font-serif font-bold text-center mb-6">
+      AC Service & Maintenance Guides Qatar
+    </h2>
+
+    <p className="text-center text-muted-foreground max-w-3xl mx-auto mb-10">
+      Learn about AC repair, maintenance, FCU cleaning, chiller systems and
+      cooling solutions for Qatar homes and villas.
+    </p>
+
+    <div className="grid md:grid-cols-3 gap-6">
+
+      <Link href="/blog/how-often-ac-service-qatar"
+        className="rounded-2xl border border-border bg-card p-6 hover:border-primary transition">
+        <h3 className="font-bold text-lg mb-2">
+          How Often Should AC Be Serviced in Qatar?
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          Recommended AC maintenance schedule for Doha villas and apartments.
+        </p>
+      </Link>
+
+      <Link href="/blog/ac-not-cooling-qatar"
+        className="rounded-2xl border border-border bg-card p-6 hover:border-primary transition">
+        <h3 className="font-bold text-lg mb-2">
+          AC Not Cooling Qatar
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          Common AC problems and cooling failure solutions.
+        </p>
+      </Link>
+
+      <Link href="/blog/ac-service-cost-qatar-2026"
+        className="rounded-2xl border border-border bg-card p-6 hover:border-primary transition">
+        <h3 className="font-bold text-lg mb-2">
+          AC Service Cost Qatar 2026
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          AC repair pricing and maintenance costs in Qatar.
+        </p>
+      </Link>
+
+      <Link href="/services/fcu-servicing"
+        className="rounded-2xl border border-border bg-card p-6 hover:border-primary transition">
+        <h3 className="font-bold text-lg mb-2">
+          FCU Servicing Qatar
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          FCU cleaning and chilled water system maintenance.
+        </p>
+      </Link>
+
+      <Link href="/services/chiller-maintenance"
+        className="rounded-2xl border border-border bg-card p-6 hover:border-primary transition">
+        <h3 className="font-bold text-lg mb-2">
+          Chiller Maintenance Qatar
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          Residential chiller servicing and preventive maintenance.
+        </p>
+      </Link>
+
+      <Link href="/amc"
+        className="rounded-2xl border border-border bg-card p-6 hover:border-primary transition">
+        <h3 className="font-bold text-lg mb-2">
+          AC AMC Qatar
+        </h3>
+        <p className="text-sm text-muted-foreground">
+          Annual maintenance contracts for AC, FCU and chiller systems.
+        </p>
+      </Link>
+
+    </div>
+  </div>
+</section>
+
+<QuoteSection service="AC Service & Repair" />
+
 
         <section className="py-20 bg-primary">
           <div className="container mx-auto px-4 md:px-6 text-center">

@@ -41,7 +41,52 @@ const homepageSchema = [
       "longitude": "51.5310"
     },
 
-    "areaServed": [
+    
+"contactPoint": {
+  "@type": "ContactPoint",
+  "telephone": "+97450002548",
+  "contactType": "customer service",
+  "areaServed": "QA",
+  "availableLanguage": [
+    "English",
+    "Arabic"
+  ]
+},
+
+"openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "opens": "00:00",
+    "closes": "23:59"
+  }
+],
+
+"hasMap": "https://www.google.com/maps",
+
+"sameAs": [
+  "https://www.facebook.com/",
+  "https://www.instagram.com/"
+],
+
+"knowsAbout": [
+  "AC Repair Qatar",
+  "FCU Servicing Qatar",
+  "AHU Maintenance Qatar",
+  "Chiller Maintenance Qatar",
+  "Villa Maintenance Qatar",
+  "HVAC Services Doha"
+],
+
+"areaServed": [
       "Doha",
       "Pearl Qatar",
       "Lusail",
@@ -53,31 +98,9 @@ const homepageSchema = [
       "Al Wakra"
     ],
 
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday"
-      ],
-      "opens": "00:00",
-      "closes": "23:59"
-    },
+    
 
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+97450002548",
-      "contactType": "customer service",
-      "availableLanguage": [
-        "English",
-        "Arabic"
-      ],
-      "url": "https://wa.me/97450002548"
-    }
+    
   },
 
   {

@@ -54,11 +54,11 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-background flex flex-col font-sans overflow-x-hidden">
+    <div className="min-h-[calc(100vh-120px)] bg-background flex flex-col font-sans overflow-x-hidden">
       <Nav />
 
       {/* Hero Section */}
-      <section className="relative pt-20 pb-32 lg:pt-32 lg:pb-40 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-secondary/40">
+      <section className="relative pt-0 pb-32 lg:pt-8 lg:pb-40 overflow-hidden bg-gradient-to-br from-blue-50 via-white to-secondary/40">
         <div className="absolute inset-0 z-0">
           <img
             src="/images/ac-system-illustration.webp"
@@ -114,7 +114,7 @@ export default function Home() {
         </div>
       </section>
       {/* Services Section */}
-      <section id="services" className="py-24 bg-white">
+      <section id="services" className="py-10 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <motion.div
             initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}
@@ -329,7 +329,7 @@ export default function Home() {
         </div>
       </section>
       {/* How it Works Section */}
-      <section className="py-24 bg-secondary/30">
+      <section className="py-10 bg-secondary/30">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">How Homekeep Works</h2>
@@ -366,7 +366,7 @@ export default function Home() {
       </section>
 
       {/* Trust & Areas Section */}
-      <section id="areas" className="py-24 bg-secondary/50 border-y border-border">
+      <section id="areas" className="py-10 bg-secondary/50 border-y border-border">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn}>
@@ -415,7 +415,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us */}
-      <section id="why-us" className="py-24 bg-foreground text-white">
+      <section id="why-us" className="py-10 bg-foreground text-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold mb-4">The Homekeep Standard</h2>
@@ -446,7 +446,7 @@ export default function Home() {
       <ReviewsSection />
 
       {/* FAQ Section */}
-      <section className="py-24 bg-white">
+      <section className="py-10 bg-white">
         <div className="container mx-auto px-4 md:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
             <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
@@ -489,7 +489,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-24 bg-white relative overflow-hidden">
+      <section id="contact" className="py-10 bg-white relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-blue-50/50 rounded-l-[100px] -z-10" />
         
         <div className="container mx-auto px-4 md:px-6 relative z-10">

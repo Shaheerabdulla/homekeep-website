@@ -1,90 +1,254 @@
 import { generatePageMetadata } from "@/lib/metadata";
-import type { Metadata } from "next";
 import AcServiceContent from "@/components/pages/services/ac-service";
 
+
 export const metadata = generatePageMetadata({
-  title: "AC Service & Repair Qatar | Split & Ducted AC",
-  description: "Split & ducted AC service and repair in Qatar. Cleaning, refrigerant top-up, 24/7 emergency repair. From QAR 150. Call +974 5000 2548.",
-  path: "/services/ac-service",
-  type: "website",
+
+  title:
+    "AC Service Qatar | AC Repair Doha & HVAC Maintenance",
+
+  description:
+    "24/7 AC service and repair in Qatar for villas, apartments and offices. Expert AC cleaning, gas charging, troubleshooting and maintenance in Doha, Pearl Qatar, Lusail and West Bay.",
+
+  path:
+    "/services/ac-service",
+
+  type:
+    "website",
+
 });
 
+
 const schemas = [
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: "AC Service and Repair Doha Qatar",
-    provider: {
-      "@type": "LocalBusiness",
-      name: "Homekeep Qatar",
-      telephone: "+97450002548",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: "Doha",
-        addressCountry: "QA",
-      },
-    },
-    areaServed: ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma"],
-    description:
-      "Professional residential AC repair, service, installation and maintenance in Doha, Pearl Qatar, Lusail and West Bay. 24/7 emergency AC service available.",
-    serviceType: "Air Conditioning Service",
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "How often should I service my AC in Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "In Qatar's harsh climate, we recommend AC servicing every 3–4 months. The high dust levels and continuous usage mean filters and coils clog faster than in temperate countries. Quarterly servicing extends unit lifespan and keeps electricity bills low.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "How quickly can you respond to an AC breakdown in Doha?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "For emergency no-cooling situations, we aim to dispatch a technician the same day — often within hours. We cover Pearl Qatar, Lusail, West Bay, and central Doha as priority response zones.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "What AC brands do you service in Qatar?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "We service all major brands available in Qatar including Daikin, LG, Samsung, Carrier, York, Midea, Haier, Gree, Mitsubishi, and Hitachi, among others.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Do you offer AC maintenance contracts for villas?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes — our Annual Maintenance Contracts (AMCs) are popular with villa owners in Pearl Qatar and Lusail. They include scheduled quarterly visits, emergency priority, and discounted parts.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Can you top up gas/refrigerant for my AC?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Yes, our technicians carry equipment for R22, R32, and R410A refrigerant top-ups. We also check for leaks before recharging to ensure the fix is permanent.",
-        },
-      },
-    ],
-  },
+
+{
+
+"@context":"https://schema.org",
+
+"@type":"Service",
+
+"@id":
+"https://www.homekeep.qa/services/ac-service#service",
+
+"name":
+"AC Service Qatar",
+
+"serviceType":
+"Air Conditioning Repair and Maintenance",
+
+"description":
+"Professional AC repair, AC cleaning, refrigerant checking, troubleshooting and preventive maintenance services across Qatar.",
+
+
+"provider":{
+
+"@type":[
+"LocalBusiness",
+"HVACBusiness"
+],
+
+"name":
+"Homekeep Improvements",
+
+"url":
+"https://www.homekeep.qa",
+
+"telephone":
+"+97450002548",
+
+"address":{
+
+"@type":"PostalAddress",
+
+"addressLocality":
+"Doha",
+
+"addressCountry":
+"QA"
+
+}
+
+},
+
+
+"areaServed":[
+
+"Doha",
+"Pearl Qatar",
+"Lusail",
+"West Bay",
+"Simaisma",
+"Al Waab",
+"Al Rayyan"
+
+],
+
+
+"offers":{
+
+"@type":"Offer",
+
+"priceCurrency":
+"QAR",
+
+"price":
+"150",
+
+"availability":
+"https://schema.org/InStock",
+
+"url":
+"https://www.homekeep.qa/services/ac-service"
+
+},
+
+
+"image":
+"https://www.homekeep.qa/opengraph.jpg"
+
+},
+
+
+
+{
+
+"@context":"https://schema.org",
+
+"@type":"FAQPage",
+
+"mainEntity":[
+
+
+{
+
+"@type":"Question",
+
+"name":
+"How often should AC units be serviced in Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Due to Qatar's dust, humidity and extreme summer temperatures, AC units should generally be serviced every 3 to 4 months to maintain cooling performance and efficiency."
+
+}
+
+},
+
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Do you provide emergency AC repair in Doha?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Yes, Homekeep provides fast AC repair services for no-cooling problems, water leakage, unusual noise and AC breakdowns across Doha, Pearl Qatar and Lusail."
+
+}
+
+},
+
+
+
+{
+
+"@type":"Question",
+
+"name":
+"What AC brands do you repair in Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"We service major AC brands including Daikin, Carrier, York, LG, Samsung, Mitsubishi, Gree, Midea and other residential and commercial air conditioning systems."
+
+}
+
+},
+
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Do you provide villa AC maintenance contracts in Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Yes, Homekeep provides AC annual maintenance contracts for villas and apartments including scheduled servicing, inspection and priority support."
+
+}
+
+},
+
+
+
+{
+
+"@type":"Question",
+
+"name":
+"Do you provide AC gas charging in Qatar?",
+
+"acceptedAnswer":{
+
+"@type":"Answer",
+
+"text":
+"Yes, our technicians inspect refrigerant levels, check possible leaks and perform refrigerant charging when required."
+
+}
+
+}
+
+
+
+]
+
+}
+
 ];
 
-export default function Page() {
-  return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
-      />
-      <AcServiceContent />
-    </>
-  );
+
+export default function Page(){
+
+return (
+
+<>
+
+<script
+
+type="application/ld+json"
+
+dangerouslySetInnerHTML={{
+
+__html:
+JSON.stringify(schemas)
+
+}}
+
+/>
+
+<AcServiceContent />
+
+</>
+
+);
+
 }
