@@ -31,7 +31,11 @@ export function Nav() {
   const pathname = usePathname();
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-lg border-b border-border">
+    <>
+      <div className="w-full bg-primary text-white text-center text-xs md:text-sm font-medium py-1.5 px-4">
+        🇶🇦 Proudly Qatari-Owned Company
+      </div>
+      <nav className="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4 md:px-6 h-20 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
@@ -200,5 +204,6 @@ export function Nav() {
         </div>
       )}
     </nav>
+    </>
   );
 }
