@@ -32,7 +32,7 @@ export function Nav() {
 
   return (
     <>
-      <div className="w-full bg-primary text-white text-center text-xs md:text-sm font-medium py-1.5 px-4">
+      <div className="w-full bg-primary text-white text-center text-xs font-medium py-1 px-4">
         🇶🇦 Proudly Qatari-Owned Company
       </div>
       <nav className="sticky top-0 z-50 w-full bg-white/90 backdrop-blur-lg border-b border-border">
