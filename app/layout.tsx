@@ -3,13 +3,17 @@ import "./globals.css";
 import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.homekeep.qa"),
+
   title: {
-    default: "AC Service Qatar | AC Repair Doha | FCU & Chiller Maintenance | Homekeep",
+    default:
+      "AC Service Qatar | AC Repair Doha | FCU & Chiller Maintenance | Homekeep",
     template: "%s | Homekeep Qatar",
   },
+
   description:
-    "Homekeep — expert AC service in Qatar and Doha. FCU servicing, chiller maintenance, AHU repair and plumbing for villas in Pearl Qatar, Lusail, West Bay & Simaisma. Call +974 50002548.",
-  metadataBase: new URL("https://homekeep.qa"),
+    "Homekeep provides professional AC service in Qatar and Doha including AC repair, FCU servicing, chiller maintenance, AHU repair and plumbing for villas and apartments in Pearl Qatar, Lusail, West Bay and Simaisma. Call +974 50002548.",
+
   keywords: [
     "AC service Qatar",
     "AC service Doha",
@@ -24,11 +28,26 @@ export const metadata: Metadata = {
     "plumbing Doha",
     "Homekeep Qatar",
   ],
+
+  alternates: {
+    canonical: "https://www.homekeep.qa",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
   },
+
   openGraph: {
+    title: "AC Service Qatar | AC Repair Doha | Homekeep",
+    description:
+      "Professional AC maintenance, FCU, AHU and chiller services across Qatar.",
+    url: "https://www.homekeep.qa",
     siteName: "Homekeep Qatar",
     locale: "en_QA",
     type: "website",
