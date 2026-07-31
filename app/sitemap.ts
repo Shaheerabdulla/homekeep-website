@@ -4,11 +4,14 @@ import path from "path";
 
 function getSlugs(dir: string): string[] {
   const fullPath = path.join(process.cwd(), "app", dir);
+  console.log(`[sitemap-debug] dir=${dir} cwd=${process.cwd()} fullPath=${fullPath} exists=${fs.existsSync(fullPath)}`);
   if (!fs.existsSync(fullPath)) return [];
-  return fs
+  const entries = fs
     .readdirSync(fullPath, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
     .map((entry) => entry.name);
+  console.log(`[sitemap-debug] ${dir} entries: ${JSON.stringify(entries)}`);
+  return entries;
 }
 
 export default function sitemap(): MetadataRoute.Sitemap {

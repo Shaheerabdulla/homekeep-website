@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://homekeep.qa/sitemap.xml
