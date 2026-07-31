@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "AC Service, FCU & Chiller Maintenance Qatar | Homekeep Qatar",
   description:
     "Qatar's trusted AC, FCU, chiller & plumbing specialists. Same/next-day service for villas in Pearl Qatar, Lusail, West Bay & Simaisma. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/" },
+  alternates: { canonical: "https://www.homekeep.qa/" },
   keywords: [
     "AC service Qatar",
     "AC service Doha",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "AC Service, FCU & Chiller Maintenance Qatar | Homekeep Qatar",
     description:
       "Expert AC service, FCU servicing, chiller maintenance and plumbing for villas in Qatar. Pearl Qatar, Lusail, West Bay & Doha. Call +974 50002548.",
-    url: "https://homekeep.qa/",
+    url: "https://www.homekeep.qa/",
     images: [{ url: "/opengraph.jpg", width: 1200, height: 630 }],
   },
 };
@@ -31,7 +31,7 @@ const homepageSchema = [
     "@type": "LocalBusiness",
     name: "Homekeep Qatar",
     telephone: "+97450002548",
-    url: "https://homekeep.qa",
+    url: "https://www.homekeep.qa",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Doha",

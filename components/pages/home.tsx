@@ -80,10 +80,10 @@ export default function Home() {
                 Premium Home Maintenance in Qatar
               </motion.div>
               <motion.h1 variants={fadeIn} className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-foreground leading-[1.1] tracking-tight mb-6">
-                Keep your home <span className="text-primary">perfectly cool</span> and running seamlessly.
+                AC Service Qatar & <span className="text-primary">HVAC Maintenance</span> Experts in Doha.
               </motion.h1>
               <motion.p variants={fadeIn} className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl leading-relaxed">
-                Expert AC servicing, chiller maintenance, and premium plumbing for villas in Pearl Qatar, Lusail, West Bay, and beyond. Professional, punctual, and precise.
+                Homekeep provides professional AC service in Qatar, FCU servicing, AHU maintenance, chiller maintenance and plumbing solutions for villas and apartments in Doha, Pearl Qatar, Lusail and West Bay.
               </motion.p>
               <motion.div variants={fadeIn} className="flex flex-col sm:flex-row gap-4 mb-10">
                 <Button size="lg" asChild className="rounded-full text-base h-14 px-8 shadow-lg shadow-primary/25">
@@ -211,6 +211,39 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
+      {/* Areas We Serve - Local SEO Section */}
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4">
+              AC Service Across Doha & Premium Qatar Communities
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Homekeep provides reliable AC maintenance, HVAC servicing and home maintenance solutions across Qatar's leading residential areas.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+            {[
+              { name: "AC Service Doha", href: "/areas/doha" },
+              { name: "AC Service Pearl Qatar", href: "/areas/pearl-qatar" },
+              { name: "AC Service Lusail", href: "/areas/lusail" },
+              { name: "AC Service West Bay", href: "/areas/west-bay" },
+              { name: "AC Service Simaisma", href: "/areas/simaisma" },
+            ].map((area) => (
+              <Link
+                key={area.href}
+                href={area.href}
+                className="rounded-xl border p-5 text-center font-semibold hover:border-primary hover:text-primary transition"
+              >
+                {area.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Why Qatar Villas Trust Homekeep Section */}
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4 md:px-6">
