@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "AC Service Lusail City | HVAC & Plumbing",
   description:
     "AC, AHU & FCU servicing plus plumbing for Lusail City villas. Same/next-day response. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/areas/lusail" },
+  alternates: { canonical: "https://www.homekeep.qa/areas/lusail" },
 };
 
 const schemas = [
@@ -14,7 +14,7 @@ const schemas = [
     "@type": "LocalBusiness",
     name: "Homekeep Qatar — AC & HVAC Services Lusail",
     telephone: "+97450002548",
-    url: "https://homekeep.qa/areas/lusail",
+    url: "https://www.homekeep.qa/areas/lusail",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Lusail",

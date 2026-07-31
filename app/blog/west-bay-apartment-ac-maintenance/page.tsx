@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "West Bay Apartment AC Maintenance Guide",
   description:
     "How AC maintenance differs for West Bay towers — FCU systems, building access coordination, and how often to service apartment units.",
-  alternates: { canonical: "https://homekeep.qa/blog/west-bay-apartment-ac-maintenance" },
+  alternates: { canonical: "https://www.homekeep.qa/blog/west-bay-apartment-ac-maintenance" },
 };
 
 const schema = {
@@ -17,7 +17,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "How AC maintenance differs for West Bay towers — FCU systems, building access coordination, and how often to service apartment units.",
-  mainEntityOfPage: "https://homekeep.qa/blog/west-bay-apartment-ac-maintenance",
+  mainEntityOfPage: "https://www.homekeep.qa/blog/west-bay-apartment-ac-maintenance",
 };
 
 export default function Page() {

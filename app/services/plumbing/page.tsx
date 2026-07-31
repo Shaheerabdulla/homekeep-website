@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Plumber Doha Qatar | Emergency Plumbing Services",
   description:
     "Emergency & residential plumbing in Doha, Pearl Qatar & Lusail. Leak repair, drain unblocking, fixtures. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/services/plumbing" },
+  alternates: { canonical: "https://www.homekeep.qa/services/plumbing" },
 };
 
 const schemas = [

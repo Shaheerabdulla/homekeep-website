@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Chiller Maintenance Qatar | Residential Chiller Service",
   description:
     "Chiller servicing, condenser cleaning & fault diagnosis for Qatar villas. AMC contracts available. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/services/chiller-maintenance" },
+  alternates: { canonical: "https://www.homekeep.qa/services/chiller-maintenance" },
   keywords: [
     "chiller maintenance Qatar",
     "chiller maintenance Doha",

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "FCU Servicing Qatar | Fan Coil Unit Cleaning",
   description:
     "FCU cleaning, coil wash & filter replacement for Qatar villas. Eliminate odors, prevent leaks. From QAR 225. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/services/fcu-servicing" },
+  alternates: { canonical: "https://www.homekeep.qa/services/fcu-servicing" },
   keywords: [
     "FCU servicing Qatar",
     "FCU services Doha",

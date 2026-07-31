@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "AHU Servicing Qatar | Air Handling Unit Maintenance",
   description:
     "Professional AHU servicing for villas in Doha, Pearl Qatar & Lusail. Same-day response. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/services/ahu-servicing" },
+  alternates: { canonical: "https://www.homekeep.qa/services/ahu-servicing" },
 };
 
 const schemas = [

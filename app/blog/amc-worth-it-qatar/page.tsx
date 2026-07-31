@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Is an AC Annual Maintenance Contract Worth It in Qatar?",
   description:
     "AMC vs pay-as-you-go AC servicing in Qatar — we break down the real numbers for a typical Doha villa. Is an Annual Maintenance Contract worth it? Honest analysis.",
-  alternates: { canonical: "https://homekeep.qa/blog/amc-worth-it-qatar" },
+  alternates: { canonical: "https://www.homekeep.qa/blog/amc-worth-it-qatar" },
 };
 
 const schema = {
@@ -17,7 +17,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Is an AC Annual Maintenance Contract (AMC) worth it in Qatar? We break down the real numbers for a typical Doha villa and compare AMC vs pay-as-you-go servicing.",
-  mainEntityOfPage: "https://homekeep.qa/blog/amc-worth-it-qatar",
+  mainEntityOfPage: "https://www.homekeep.qa/blog/amc-worth-it-qatar",
 };
 
 export default function Page() {

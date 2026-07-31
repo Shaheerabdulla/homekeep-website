@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "AC Service Simaisma Qatar | Split AC Repair",
   description:
     "Split AC repair, anti-corrosion treatment & plumbing for Simaisma villas. Coastal specialists. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/areas/simaisma" },
+  alternates: { canonical: "https://www.homekeep.qa/areas/simaisma" },
 };
 
 const schemas = [
@@ -14,7 +14,7 @@ const schemas = [
     "@type": "LocalBusiness",
     name: "Homekeep Qatar — AC & HVAC Services Simaisma",
     telephone: "+97450002548",
-    url: "https://homekeep.qa/areas/simaisma",
+    url: "https://www.homekeep.qa/areas/simaisma",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Simaisma",

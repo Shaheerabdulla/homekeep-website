@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Water Heater Maintenance in Qatar Villas",
   description:
     "Why water heaters fail faster in Qatar, signs of sediment buildup, and how often to service your tank. A guide for Qatar villa owners.",
-  alternates: { canonical: "https://homekeep.qa/blog/water-heater-maintenance-qatar" },
+  alternates: { canonical: "https://www.homekeep.qa/blog/water-heater-maintenance-qatar" },
 };
 
 const schema = {
@@ -17,7 +17,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Why water heaters fail faster in Qatar, signs of sediment buildup, and how often to service your tank. A guide for Qatar villa owners.",
-  mainEntityOfPage: "https://homekeep.qa/blog/water-heater-maintenance-qatar",
+  mainEntityOfPage: "https://www.homekeep.qa/blog/water-heater-maintenance-qatar",
 };
 
 export default function Page() {

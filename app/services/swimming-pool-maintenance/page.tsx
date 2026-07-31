@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Swimming Pool Maintenance Qatar | Pool Service",
   description:
     "Pool cleaning, water balancing & filter servicing for Qatar villas. AMC from QAR 2,500/yr. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/services/swimming-pool-maintenance" },
+  alternates: { canonical: "https://www.homekeep.qa/services/swimming-pool-maintenance" },
   keywords: [
     "swimming pool maintenance Qatar",
     "pool maintenance Doha",

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "AC Service West Bay Doha | FCU Servicing",
   description:
     "AC, FCU & AHU maintenance plus plumbing for West Bay apartments and villas. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/areas/west-bay" },
+  alternates: { canonical: "https://www.homekeep.qa/areas/west-bay" },
 };
 
 const schemas = [
@@ -14,7 +14,7 @@ const schemas = [
     "@type": "LocalBusiness",
     name: "Homekeep Qatar — AC & HVAC Services West Bay",
     telephone: "+97450002548",
-    url: "https://homekeep.qa/areas/west-bay",
+    url: "https://www.homekeep.qa/areas/west-bay",
     address: {
       "@type": "PostalAddress",
       addressLocality: "West Bay",

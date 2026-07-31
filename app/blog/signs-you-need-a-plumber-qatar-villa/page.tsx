@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Signs You Need a Plumber in Your Qatar Villa",
   description:
     "Low water pressure, slab leaks, water heater issues — warning signs Qatar villa owners shouldn't ignore, and when to call a plumber.",
-  alternates: { canonical: "https://homekeep.qa/blog/signs-you-need-a-plumber-qatar-villa" },
+  alternates: { canonical: "https://www.homekeep.qa/blog/signs-you-need-a-plumber-qatar-villa" },
 };
 
 const schema = {
@@ -17,7 +17,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Low water pressure, slab leaks, water heater issues — warning signs Qatar villa owners shouldn't ignore, and when to call a plumber.",
-  mainEntityOfPage: "https://homekeep.qa/blog/signs-you-need-a-plumber-qatar-villa",
+  mainEntityOfPage: "https://www.homekeep.qa/blog/signs-you-need-a-plumber-qatar-villa",
 };
 
 export default function Page() {

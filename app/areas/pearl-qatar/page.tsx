@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "AC Service Pearl Qatar | FCU & AHU Servicing",
   description:
     "AC, FCU, AHU, chiller & plumbing service for Pearl Qatar villas. Same/next-day response. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/areas/pearl-qatar" },
+  alternates: { canonical: "https://www.homekeep.qa/areas/pearl-qatar" },
 };
 
 const schemas = [
@@ -14,7 +14,7 @@ const schemas = [
     "@type": "LocalBusiness",
     name: "Homekeep Qatar — AC & HVAC Services Pearl Qatar",
     telephone: "+97450002548",
-    url: "https://homekeep.qa/areas/pearl-qatar",
+    url: "https://www.homekeep.qa/areas/pearl-qatar",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Pearl Qatar",

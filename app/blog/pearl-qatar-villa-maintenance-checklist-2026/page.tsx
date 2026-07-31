@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Complete 2026 maintenance checklist for Pearl Qatar villas. Quarterly FCU service, annual chiller checks, plumbing inspections, and seasonal tasks to protect your property.",
   alternates: {
-    canonical: "https://homekeep.qa/blog/pearl-qatar-villa-maintenance-checklist-2026",
+    canonical: "https://www.homekeep.qa/blog/pearl-qatar-villa-maintenance-checklist-2026",
   },
 };
 
@@ -20,7 +20,7 @@ const schema = {
   description:
     "Complete 2026 maintenance checklist for Pearl Qatar villas. AC, FCU, chiller, plumbing, and seasonal tasks to protect your investment and stay comfortable year-round.",
   mainEntityOfPage:
-    "https://homekeep.qa/blog/pearl-qatar-villa-maintenance-checklist-2026",
+    "https://www.homekeep.qa/blog/pearl-qatar-villa-maintenance-checklist-2026",
 };
 
 export default function Page() {

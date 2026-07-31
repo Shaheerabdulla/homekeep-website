@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "AC Service Doha Qatar | HVAC & Plumbing",
   description:
     "AC, AHU, FCU, chiller & plumbing service for Doha villas and apartments. Same/next-day response. Call +974 5000 2548.",
-  alternates: { canonical: "https://homekeep.qa/areas/doha" },
+  alternates: { canonical: "https://www.homekeep.qa/areas/doha" },
 };
 
 const schemas = [
@@ -14,7 +14,7 @@ const schemas = [
     "@type": "LocalBusiness",
     name: "Homekeep Qatar — AC & HVAC Services Doha",
     telephone: "+97450002548",
-    url: "https://homekeep.qa/areas/doha",
+    url: "https://www.homekeep.qa/areas/doha",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Doha",

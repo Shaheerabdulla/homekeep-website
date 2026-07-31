@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "What Is AHU Servicing? Does My Qatar Villa Need It?",
   description:
     "What is an AHU (Air Handling Unit), does your Qatar villa have one, and what does AHU servicing include? Complete guide for Doha, Pearl Qatar, and Lusail homeowners.",
-  alternates: { canonical: "https://homekeep.qa/blog/what-is-ahu-servicing" },
+  alternates: { canonical: "https://www.homekeep.qa/blog/what-is-ahu-servicing" },
 };
 
 const schema = {
@@ -17,7 +17,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "What is an AHU (Air Handling Unit)? Does your Qatar villa have one? What does AHU servicing include? Complete guide for Doha homeowners.",
-  mainEntityOfPage: "https://homekeep.qa/blog/what-is-ahu-servicing",
+  mainEntityOfPage: "https://www.homekeep.qa/blog/what-is-ahu-servicing",
 };
 
 export default function Page() {

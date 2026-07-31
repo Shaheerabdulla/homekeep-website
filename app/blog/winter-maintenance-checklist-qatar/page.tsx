@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Winter Maintenance Checklist for Qatar Villas",
   description:
     "Why winter is the ideal time to service your AC, chiller, and plumbing in Qatar — get ahead of the summer rush with this checklist.",
-  alternates: { canonical: "https://homekeep.qa/blog/winter-maintenance-checklist-qatar" },
+  alternates: { canonical: "https://www.homekeep.qa/blog/winter-maintenance-checklist-qatar" },
 };
 
 const schema = {
@@ -17,7 +17,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Why winter is the ideal time to service your AC, chiller, and plumbing in Qatar — get ahead of the summer rush with this checklist.",
-  mainEntityOfPage: "https://homekeep.qa/blog/winter-maintenance-checklist-qatar",
+  mainEntityOfPage: "https://www.homekeep.qa/blog/winter-maintenance-checklist-qatar",
 };
 
 export default function Page() {

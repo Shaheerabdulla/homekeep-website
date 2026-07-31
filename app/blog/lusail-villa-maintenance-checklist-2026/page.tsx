@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Lusail Villa Maintenance Checklist 2026",
   description:
     "Complete 2026 maintenance checklist for Lusail villas. Quarterly, biannual, and annual tasks tailored to Lusail's ongoing construction and dust levels.",
-  alternates: { canonical: "https://homekeep.qa/blog/lusail-villa-maintenance-checklist-2026" },
+  alternates: { canonical: "https://www.homekeep.qa/blog/lusail-villa-maintenance-checklist-2026" },
 };
 
 const schema = {
@@ -17,7 +17,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Complete 2026 maintenance checklist for Lusail villas. Quarterly, biannual, and annual tasks tailored to Lusail's ongoing construction and dust levels.",
-  mainEntityOfPage: "https://homekeep.qa/blog/lusail-villa-maintenance-checklist-2026",
+  mainEntityOfPage: "https://www.homekeep.qa/blog/lusail-villa-maintenance-checklist-2026",
 };
 
 export default function Page() {

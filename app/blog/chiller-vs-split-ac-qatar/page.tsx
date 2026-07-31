@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Chiller vs Split AC in Qatar: What's the Difference?",
   description:
     "Chiller-fed FCU or split AC? Many Qatar villa owners don't know which system they have. This guide explains the difference, maintenance needs, and costs for Pearl Qatar, Lusail, and Doha homes.",
-  alternates: { canonical: "https://homekeep.qa/blog/chiller-vs-split-ac-qatar" },
+  alternates: { canonical: "https://www.homekeep.qa/blog/chiller-vs-split-ac-qatar" },
 };
 
 const schema = {
@@ -17,7 +17,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Chiller or split AC? Many Qatar villa owners don't know which system they have or what it means for maintenance. This guide explains the difference, the pros and cons, and the maintenance requirements for each.",
-  mainEntityOfPage: "https://homekeep.qa/blog/chiller-vs-split-ac-qatar",
+  mainEntityOfPage: "https://www.homekeep.qa/blog/chiller-vs-split-ac-qatar",
 };
 
 export default function Page() {
