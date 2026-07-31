@@ -1,35 +1,46 @@
 import { generatePageMetadata } from "@/lib/metadata";
-import type { Metadata } from "next";
 import HomeContent from "@/components/pages/home";
 
 export const metadata = generatePageMetadata({
-  title: "Homekeep Qatar | Premium AC Service, FCU & Villa Maintenance",
-  description: "Qatar's leading HVAC, FCU chemical cleaning, chiller maintenance & plumbing experts for Pearl Qatar, Lusail, West Bay & Doha.",
+  title:
+    "AC Service Qatar | FCU Cleaning, Chiller Maintenance & Villa AMC | Homekeep",
+  description:
+    "24/7 AC service in Qatar for villas and apartments. Specialists in FCU chemical cleaning, AHU servicing, chiller maintenance and HVAC AMC in Doha, Pearl Qatar, Lusail and West Bay.",
   path: "/",
 });
 
 const homepageSchema = [
   {
     "@context": "https://schema.org",
-    "@type": "HVACContractor",
+    "@type": ["LocalBusiness", "HVACBusiness"],
     "@id": "https://www.homekeep.qa/#organization",
-    "name": "Homekeep Qatar",
-    "telephone": "+97450002548",
+
+    "name": "Homekeep Improvements",
     "url": "https://www.homekeep.qa",
+
     "logo": "https://www.homekeep.qa/homekeep-logo.jpg",
     "image": "https://www.homekeep.qa/opengraph.jpg",
+
+    "telephone": "+97450002548",
+
     "priceRange": "QAR 150 - QAR 1500",
-    "description": "Qatar's trusted AC, FCU, chiller & plumbing specialists. Same/next-day service for villas in Pearl Qatar, Lusail, West Bay & Simaisma.",
+
+    "description":
+      "AC repair, FCU cleaning, AHU servicing, chiller maintenance and HVAC annual maintenance contracts in Qatar.",
+
     "address": {
       "@type": "PostalAddress",
+      "streetAddress": "Unit 1, Building 317, Street 250",
       "addressLocality": "Doha",
       "addressCountry": "QA"
     },
+
     "geo": {
       "@type": "GeoCoordinates",
       "latitude": "25.2854",
       "longitude": "51.5310"
     },
+
     "areaServed": [
       "Doha",
       "Pearl Qatar",
@@ -41,112 +52,141 @@ const homepageSchema = [
       "Al Rayyan",
       "Al Wakra"
     ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5.0",
-      "reviewCount": "3"
+
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+97450002548",
+      "contactType": "customer service",
+      "availableLanguage": [
+        "English",
+        "Arabic"
+      ],
+      "url": "https://wa.me/97450002548"
     }
   },
+
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Homekeep HVAC and Maintenance Services Qatar",
+    "name": "Homekeep HVAC Services Qatar",
+
     "itemListElement": [
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "AC Service Qatar",
-          "url": "https://www.homekeep.qa/services/ac-service"
-        },
-        "price": "150.00",
-        "priceCurrency": "QAR"
+        "@type": "Service",
+        "name": "AC Service Qatar",
+        "url": "https://www.homekeep.qa/services/ac-service"
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "FCU Servicing Qatar",
-          "url": "https://www.homekeep.qa/services/fcu-servicing"
-        },
-        "price": "225.00",
-        "priceCurrency": "QAR"
+        "@type": "Service",
+        "name": "FCU Servicing Qatar",
+        "url": "https://www.homekeep.qa/services/fcu-servicing"
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "AHU Servicing Qatar",
-          "url": "https://www.homekeep.qa/services/ahu-servicing"
-        },
-        "price": "700.00",
-        "priceCurrency": "QAR"
+        "@type": "Service",
+        "name": "AHU Maintenance Qatar",
+        "url": "https://www.homekeep.qa/services/ahu-servicing"
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Chiller Maintenance Qatar",
-          "url": "https://www.homekeep.qa/services/chiller-maintenance"
-        }
+        "@type": "Service",
+        "name": "Chiller Maintenance Qatar",
+        "url": "https://www.homekeep.qa/services/chiller-maintenance"
       },
       {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Plumbing Services Qatar",
-          "url": "https://www.homekeep.qa/services/plumbing"
-        }
+        "@type": "Service",
+        "name": "Plumbing Services Qatar",
+        "url": "https://www.homekeep.qa/services/plumbing"
       }
     ]
   },
+
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.homekeep.qa/"
+      }
+    ]
+  },
+
   {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Do you offer emergency AC repairs?",
+        "name": "Do you provide AC repair in Qatar?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we prioritize emergency no-cooling situations, especially during summer. Our rapid response team can be dispatched quickly to Pearl Qatar, Lusail, and West Bay."
+          "text":
+            "Yes, Homekeep provides AC repair, FCU servicing and HVAC maintenance for villas, apartments and commercial properties across Doha, Pearl Qatar and Lusail."
         }
       },
+
       {
         "@type": "Question",
-        "name": "Are your technicians certified?",
+        "name": "Do you service FCU and chiller systems?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Our technicians are trained to handle residential HVAC systems including FCU, AHU, VRF and central chiller systems."
+          "text":
+            "Yes, Homekeep specializes in FCU chemical cleaning, AHU maintenance, chilled water systems and chiller maintenance."
         }
       },
+
       {
         "@type": "Question",
-        "name": "Do you provide annual maintenance contracts (AMCs)?",
+        "name": "Do you provide annual maintenance contracts?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, Homekeep provides annual maintenance contracts for villas and apartments covering AC, HVAC and plumbing systems."
+          "text":
+            "Yes, Homekeep offers annual maintenance contracts covering AC, HVAC, plumbing and villa maintenance services."
         }
       },
+
       {
         "@type": "Question",
-        "name": "What areas do you cover?",
+        "name": "Which areas in Qatar do you cover?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We serve Doha, Pearl Qatar, Lusail, West Bay, Simaisma, Al Waab, Ain Khaled, Al Rayyan, and Al Wakra."
+          "text":
+            "We cover Doha, Pearl Qatar, Lusail, West Bay, Simaisma, Al Waab, Ain Khaled, Al Rayyan and Al Wakra."
         }
       }
     ]
   }
 ];
 
+
 export default function Page() {
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homepageSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(homepageSchema)
+        }}
       />
+
       <HomeContent />
     </>
   );
