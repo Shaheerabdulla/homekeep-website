@@ -18,7 +18,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Why winter is the ideal time to service your AC, chiller, and plumbing in Qatar — get ahead of the summer rush with this checklist.",
-  mainEntityOfPage: "https://www.homekeep.qa/blog/winter-maintenance-checklist-qatar",
+  mainEntityOfPage: "https://homekeep.qa/blog/winter-maintenance-checklist-qatar",
 };
 
 export default function Page() {

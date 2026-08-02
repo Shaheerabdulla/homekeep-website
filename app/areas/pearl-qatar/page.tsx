@@ -31,19 +31,19 @@ const schemas = [
 ],
 
 "@id":
-"https://www.homekeep.qa/areas/pearl-qatar#business",
+"https://homekeep.qa/areas/pearl-qatar#business",
 
 "name":
 "Homekeep Improvements Pearl Qatar",
 
 "url":
-"https://www.homekeep.qa/areas/pearl-qatar",
+"https://homekeep.qa/areas/pearl-qatar",
 
 "telephone":
 "+97450002548",
 
 "image":
-"https://www.homekeep.qa/opengraph.jpg",
+"https://homekeep.qa/opengraph.jpg",
 
 "description":
 "AC repair, FCU servicing, chiller maintenance and villa maintenance services in Pearl Qatar.",
@@ -101,7 +101,7 @@ const schemas = [
 "150",
 
 "url":
-"https://www.homekeep.qa/services/ac-service"
+"https://homekeep.qa/services/ac-service"
 
 }
 

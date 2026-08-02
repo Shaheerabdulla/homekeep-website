@@ -15,7 +15,7 @@ const schemas = [
     "@type": "LocalBusiness",
     name: "Homekeep Qatar — AC & HVAC Services Simaisma",
     telephone: "+97450002548",
-    url: "https://www.homekeep.qa/areas/simaisma",
+    url: "https://homekeep.qa/areas/simaisma",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Simaisma",

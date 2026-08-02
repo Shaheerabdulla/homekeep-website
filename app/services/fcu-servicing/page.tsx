@@ -27,7 +27,7 @@ const schema = [
 "@type":"Service",
 
 "@id":
-"https://www.homekeep.qa/services/fcu-servicing#service",
+"https://homekeep.qa/services/fcu-servicing#service",
 
 "name":
 "FCU Servicing Qatar",
@@ -50,7 +50,7 @@ const schema = [
 "Homekeep Improvements",
 
 "url":
-"https://www.homekeep.qa",
+"https://homekeep.qa",
 
 "telephone":
 "+97450002548",
@@ -103,13 +103,13 @@ const schema = [
 "https://schema.org/InStock",
 
 "url":
-"https://www.homekeep.qa/services/fcu-servicing"
+"https://homekeep.qa/services/fcu-servicing"
 
 },
 
 
 "image":
-"https://www.homekeep.qa/opengraph.jpg"
+"https://homekeep.qa/opengraph.jpg"
 
 },
 

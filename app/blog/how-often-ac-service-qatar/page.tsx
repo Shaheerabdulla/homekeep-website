@@ -18,7 +18,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "How often should you service your AC in Qatar? Expert advice on AC service frequency, signs of a dirty unit, and why quarterly servicing is essential in Qatar's climate.",
-  mainEntityOfPage: "https://www.homekeep.qa/blog/how-often-ac-service-qatar",
+  mainEntityOfPage: "https://homekeep.qa/blog/how-often-ac-service-qatar",
 };
 
 export default function Page() {

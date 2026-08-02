@@ -15,7 +15,7 @@ const schemas = [
     "@type": "LocalBusiness",
     name: "Homekeep Qatar — AC & HVAC Services Doha",
     telephone: "+97450002548",
-    url: "https://www.homekeep.qa/areas/doha",
+    url: "https://homekeep.qa/areas/doha",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Doha",

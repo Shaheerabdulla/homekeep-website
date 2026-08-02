@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
 
-  const baseUrl = "https://www.homekeep.qa";
+  const baseUrl = "https://homekeep.qa";
 
   const today = new Date();
 

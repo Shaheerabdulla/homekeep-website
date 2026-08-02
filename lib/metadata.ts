@@ -9,7 +9,7 @@ interface SEOProps {
   publishedTime?: string;
 }
 
-const SITE_URL = "https://www.homekeep.qa";
+const SITE_URL = "https://homekeep.qa";
 
 export function generatePageMetadata({
   title,

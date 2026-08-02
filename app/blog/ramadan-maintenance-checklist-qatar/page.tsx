@@ -18,7 +18,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Prepare your Qatar villa's AC, plumbing, and pool for Ramadan hosting — a pre-Ramadan maintenance checklist for villa owners.",
-  mainEntityOfPage: "https://www.homekeep.qa/blog/ramadan-maintenance-checklist-qatar",
+  mainEntityOfPage: "https://homekeep.qa/blog/ramadan-maintenance-checklist-qatar",
 };
 
 export default function Page() {

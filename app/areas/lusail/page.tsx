@@ -31,19 +31,19 @@ const schemas = [
 ],
 
 "@id":
-"https://www.homekeep.qa/areas/lusail#business",
+"https://homekeep.qa/areas/lusail#business",
 
 "name":
 "Homekeep Improvements Lusail",
 
 "url":
-"https://www.homekeep.qa/areas/lusail",
+"https://homekeep.qa/areas/lusail",
 
 "telephone":
 "+97450002548",
 
 "image":
-"https://www.homekeep.qa/opengraph.jpg",
+"https://homekeep.qa/opengraph.jpg",
 
 "description":
 "AC repair, FCU servicing, AHU maintenance, chiller service and villa maintenance in Lusail City Qatar.",
@@ -108,7 +108,7 @@ const schemas = [
 "150",
 
 "url":
-"https://www.homekeep.qa/services/ac-service"
+"https://homekeep.qa/services/ac-service"
 
 }
 

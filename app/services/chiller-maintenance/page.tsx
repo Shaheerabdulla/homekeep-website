@@ -27,7 +27,7 @@ const schema = [
 "@type":"Service",
 
 "@id":
-"https://www.homekeep.qa/services/chiller-maintenance#service",
+"https://homekeep.qa/services/chiller-maintenance#service",
 
 "name":
 "Chiller Maintenance Qatar",
@@ -50,7 +50,7 @@ const schema = [
 "Homekeep Improvements",
 
 "url":
-"https://www.homekeep.qa",
+"https://homekeep.qa",
 
 "telephone":
 "+97450002548",
@@ -93,13 +93,13 @@ const schema = [
 "https://schema.org/InStock",
 
 "url":
-"https://www.homekeep.qa/services/chiller-maintenance"
+"https://homekeep.qa/services/chiller-maintenance"
 
 },
 
 
 "image":
-"https://www.homekeep.qa/opengraph.jpg"
+"https://homekeep.qa/opengraph.jpg"
 
 },
 

@@ -18,7 +18,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "A real cost comparison between Annual Maintenance Contracts and pay-per-visit AC servicing in Qatar, plus when each option makes more sense.",
-  mainEntityOfPage: "https://www.homekeep.qa/blog/amc-vs-pay-per-visit-qatar",
+  mainEntityOfPage: "https://homekeep.qa/blog/amc-vs-pay-per-visit-qatar",
 };
 
 export default function Page() {

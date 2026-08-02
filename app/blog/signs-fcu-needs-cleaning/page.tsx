@@ -18,7 +18,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "5 warning signs your FCU fan coil unit needs cleaning: water dripping, musty smell, weak airflow, ice on coils, and rising electricity bills. Qatar villa guide.",
-  mainEntityOfPage: "https://www.homekeep.qa/blog/signs-fcu-needs-cleaning",
+  mainEntityOfPage: "https://homekeep.qa/blog/signs-fcu-needs-cleaning",
 };
 
 export default function Page() {

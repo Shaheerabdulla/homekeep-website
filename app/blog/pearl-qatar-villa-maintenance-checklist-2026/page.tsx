@@ -19,7 +19,7 @@ const schema = {
   description:
     "Complete 2026 maintenance checklist for Pearl Qatar villas. AC, FCU, chiller, plumbing, and seasonal tasks to protect your investment and stay comfortable year-round.",
   mainEntityOfPage:
-    "https://www.homekeep.qa/blog/pearl-qatar-villa-maintenance-checklist-2026",
+    "https://homekeep.qa/blog/pearl-qatar-villa-maintenance-checklist-2026",
 };
 
 export default function Page() {

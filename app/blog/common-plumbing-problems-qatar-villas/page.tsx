@@ -18,7 +18,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "The most common plumbing problems in Qatar villas: hot water failure, slab leaks, low pressure, blocked drains, and hard water damage. Prevention tips for Pearl Qatar and Doha homeowners.",
-  mainEntityOfPage: "https://www.homekeep.qa/blog/common-plumbing-problems-qatar-villas",
+  mainEntityOfPage: "https://homekeep.qa/blog/common-plumbing-problems-qatar-villas",
 };
 
 export default function Page() {

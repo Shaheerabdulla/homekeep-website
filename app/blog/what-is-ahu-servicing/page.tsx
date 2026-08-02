@@ -18,7 +18,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "What is an AHU (Air Handling Unit)? Does your Qatar villa have one? What does AHU servicing include? Complete guide for Doha homeowners.",
-  mainEntityOfPage: "https://www.homekeep.qa/blog/what-is-ahu-servicing",
+  mainEntityOfPage: "https://homekeep.qa/blog/what-is-ahu-servicing",
 };
 
 export default function Page() {

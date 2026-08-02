@@ -18,7 +18,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Why water heaters fail faster in Qatar, signs of sediment buildup, and how often to service your tank. A guide for Qatar villa owners.",
-  mainEntityOfPage: "https://www.homekeep.qa/blog/water-heater-maintenance-qatar",
+  mainEntityOfPage: "https://homekeep.qa/blog/water-heater-maintenance-qatar",
 };
 
 export default function Page() {

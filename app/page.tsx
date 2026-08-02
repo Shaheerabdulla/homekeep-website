@@ -13,13 +13,13 @@ const homepageSchema = [
   {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "HVACBusiness"],
-    "@id": "https://www.homekeep.qa/#organization",
+    "@id": "https://homekeep.qa/#organization",
 
     "name": "Homekeep Improvements",
-    "url": "https://www.homekeep.qa",
+    "url": "https://homekeep.qa",
 
-    "logo": "https://www.homekeep.qa/homekeep-logo.jpg",
-    "image": "https://www.homekeep.qa/opengraph.jpg",
+    "logo": "https://homekeep.qa/homekeep-logo.jpg",
+    "image": "https://homekeep.qa/opengraph.jpg",
 
     "telephone": "+97450002548",
 
@@ -72,6 +72,40 @@ const homepageSchema = [
 
 "hasMap": "https://www.google.com/maps",
 
+
+"department": [
+  {
+    "@type": "HVACBusiness",
+    "name": "Homekeep AC Service Qatar",
+    "serviceType": [
+      "AC Repair Doha",
+      "FCU Servicing Qatar",
+      "AHU Maintenance Qatar",
+      "Chiller Maintenance Qatar",
+      "Plumbing Services Qatar"
+    ],
+    "areaServed": [
+      "Doha",
+      "Pearl Qatar",
+      "Lusail",
+      "West Bay",
+      "Simaisma"
+    ]
+  }
+],
+
+
+
+
+
+
+
+"aggregateRating": {
+  "@type": "AggregateRating",
+  "ratingValue": "5",
+  "reviewCount": "25"
+},
+
 "sameAs": [
   "https://www.facebook.com/",
   "https://www.instagram.com/"
@@ -112,27 +146,27 @@ const homepageSchema = [
       {
         "@type": "Service",
         "name": "AC Service Qatar",
-        "url": "https://www.homekeep.qa/services/ac-service"
+        "url": "https://homekeep.qa/services/ac-service"
       },
       {
         "@type": "Service",
         "name": "FCU Servicing Qatar",
-        "url": "https://www.homekeep.qa/services/fcu-servicing"
+        "url": "https://homekeep.qa/services/fcu-servicing"
       },
       {
         "@type": "Service",
         "name": "AHU Maintenance Qatar",
-        "url": "https://www.homekeep.qa/services/ahu-servicing"
+        "url": "https://homekeep.qa/services/ahu-servicing"
       },
       {
         "@type": "Service",
         "name": "Chiller Maintenance Qatar",
-        "url": "https://www.homekeep.qa/services/chiller-maintenance"
+        "url": "https://homekeep.qa/services/chiller-maintenance"
       },
       {
         "@type": "Service",
         "name": "Plumbing Services Qatar",
-        "url": "https://www.homekeep.qa/services/plumbing"
+        "url": "https://homekeep.qa/services/plumbing"
       }
     ]
   },
@@ -146,7 +180,7 @@ const homepageSchema = [
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://www.homekeep.qa/"
+        "item": "https://homekeep.qa/"
       }
     ]
   },

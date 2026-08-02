@@ -18,7 +18,7 @@ const schema = {
   publisher: { "@type": "Organization", name: "Homekeep Qatar", telephone: "+97450002548" },
   description:
     "Is an AC Annual Maintenance Contract (AMC) worth it in Qatar? We break down the real numbers for a typical Doha villa and compare AMC vs pay-as-you-go servicing.",
-  mainEntityOfPage: "https://www.homekeep.qa/blog/amc-worth-it-qatar",
+  mainEntityOfPage: "https://homekeep.qa/blog/amc-worth-it-qatar",
 };
 
 export default function Page() {

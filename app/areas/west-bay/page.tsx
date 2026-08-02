@@ -13,11 +13,11 @@ const schemas = [
   {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "HVACBusiness"],
-    "@id": "https://www.homekeep.qa/areas/west-bay#business",
+    "@id": "https://homekeep.qa/areas/west-bay#business",
     "name": "Homekeep Improvements West Bay",
-    "url": "https://www.homekeep.qa/areas/west-bay",
+    "url": "https://homekeep.qa/areas/west-bay",
     "telephone": "+97450002548",
-    "image": "https://www.homekeep.qa/opengraph.jpg",
+    "image": "https://homekeep.qa/opengraph.jpg",
     "description":
       "AC repair, FCU servicing, AHU maintenance and HVAC services for West Bay apartments, towers and commercial properties in Doha.",
     "address": {
@@ -42,7 +42,7 @@ const schemas = [
       "@type": "Offer",
       "priceCurrency": "QAR",
       "price": "150",
-      "url": "https://www.homekeep.qa/services/ac-service"
+      "url": "https://homekeep.qa/services/ac-service"
     }
   },
 

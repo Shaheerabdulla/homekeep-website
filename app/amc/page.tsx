@@ -28,7 +28,7 @@ const schemas = [
 "@type":"Service",
 
 "@id":
-"https://www.homekeep.qa/amc#service",
+"https://homekeep.qa/amc#service",
 
 "name":
 "AC Annual Maintenance Contract Qatar",
@@ -51,7 +51,7 @@ const schemas = [
 "Homekeep Improvements",
 
 "url":
-"https://www.homekeep.qa",
+"https://homekeep.qa",
 
 "telephone":
 "+97450002548",
@@ -95,7 +95,7 @@ const schemas = [
 "2000",
 
 "url":
-"https://www.homekeep.qa/amc",
+"https://homekeep.qa/amc",
 
 "availability":
 "https://schema.org/InStock"

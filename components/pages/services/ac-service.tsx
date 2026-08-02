@@ -17,16 +17,16 @@ const fadeIn = {
 const schema = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": "https://www.homekeep.qa/services/ac-service#service",
+  "@id": "https://homekeep.qa/services/ac-service#service",
   "name": "AC Service & Repair Qatar",
   "serviceType": "Air Conditioning Service",
   "description": "Professional AC repair, maintenance, deep cleaning, refrigerant checking and emergency AC service for villas, apartments and commercial properties across Doha, Pearl Qatar, Lusail and West Bay.",
   
   "provider": {
     "@type": "HVACContractor",
-    "@id": "https://www.homekeep.qa/#organization",
+    "@id": "https://homekeep.qa/#organization",
     "name": "Homekeep Qatar",
-    "url": "https://www.homekeep.qa",
+    "url": "https://homekeep.qa",
     "telephone": "+97450002548",
     "priceRange": "QAR 150 - QAR 1500",
     "address": {
@@ -95,7 +95,7 @@ const schema = {
 
   "availableChannel": {
     "@type": "ServiceChannel",
-    "serviceUrl": "https://www.homekeep.qa/services/ac-service",
+    "serviceUrl": "https://homekeep.qa/services/ac-service",
     "servicePhone": "+97450002548"
   }
 };

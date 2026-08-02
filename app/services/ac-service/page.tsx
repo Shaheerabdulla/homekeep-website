@@ -28,7 +28,7 @@ const schemas = [
 "@type":"Service",
 
 "@id":
-"https://www.homekeep.qa/services/ac-service#service",
+"https://homekeep.qa/services/ac-service#service",
 
 "name":
 "AC Service Qatar",
@@ -51,7 +51,7 @@ const schemas = [
 "Homekeep Improvements",
 
 "url":
-"https://www.homekeep.qa",
+"https://homekeep.qa",
 
 "telephone":
 "+97450002548",
@@ -98,13 +98,13 @@ const schemas = [
 "https://schema.org/InStock",
 
 "url":
-"https://www.homekeep.qa/services/ac-service"
+"https://homekeep.qa/services/ac-service"
 
 },
 
 
 "image":
-"https://www.homekeep.qa/opengraph.jpg"
+"https://homekeep.qa/opengraph.jpg"
 
 },
 

@@ -2,7 +2,7 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata = {
-  metadataBase: new URL("https://www.homekeep.qa"),
+  metadataBase: new URL("https://homekeep.qa"),
 
   title: {
     default:
@@ -45,7 +45,7 @@ export const metadata = {
       "Professional AC repair, FCU servicing, AHU, chiller maintenance and villa maintenance services in Doha Qatar.",
 
     url:
-      "https://www.homekeep.qa",
+      "https://homekeep.qa",
 
     siteName:
       "Homekeep Improvements",

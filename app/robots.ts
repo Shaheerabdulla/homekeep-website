@@ -10,10 +10,10 @@ export default function robots(): MetadataRoute.Robots {
     },
 
     sitemap:
-      "https://www.homekeep.qa/sitemap.xml",
+      "https://homekeep.qa/sitemap.xml",
 
     host:
-      "https://www.homekeep.qa",
+      "https://homekeep.qa",
 
   };
 

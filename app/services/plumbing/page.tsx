@@ -93,7 +93,7 @@ export default function Page() {
                   "@type": "HVACContractor",
                   "name": "Homekeep Qatar",
                   "telephone": "+97450002548",
-                  "url": "https://www.homekeep.qa"
+                  "url": "https://homekeep.qa"
                 },
                 "areaServed": ["Doha", "Pearl Qatar", "Lusail", "West Bay", "Simaisma", "Al Waab"]
               }

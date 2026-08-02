@@ -15,7 +15,7 @@ const schema = {
   name: "Homekeep AC & HVAC Maintenance Blog Qatar",
   description:
     "Expert advice on AC service, AHU maintenance, FCU servicing, and home maintenance in Qatar.",
-  url: "https://www.homekeep.qa/blog",
+  url: "https://homekeep.qa/blog",
   publisher: {
     "@type": "LocalBusiness",
     name: "Homekeep Qatar",
